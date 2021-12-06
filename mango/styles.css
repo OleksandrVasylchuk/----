@@ -821,7 +821,8 @@ h1.fadeInUp {
 
 .footer .container {
     background-size: cover;
-    background-image: url(./futter.jpg);
+    /* background-image: url(./futter.jpg); */
+    background-image: url(./пшкдjpg.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -989,6 +990,7 @@ form div{
     display: flex;
     margin-top: 20px;
     align-items: center;
+    font-size: 20px;
 }
 .fadeInUp__svg{
     width: 23px;
