@@ -11,6 +11,13 @@ a {
     color: #fff;
     text-decoration: none;
 }
+a:hover, 
+a:focus {
+    color: #B88E3B;
+}
+
+
+
 .localizations {
     position: absolute;
     display: block;
@@ -35,7 +42,8 @@ a {
     margin: 0;
 }
 .localizations li.active {
-    background: #bdbcb9;
+    background: #B88E3B;
+    ;
 }
 .localizations a {
     font-size: 10px;
@@ -253,7 +261,7 @@ header.no-bg {
 }
 
 .container {
-    padding: 0 15px;
+    padding: 0;
     margin: 0 auto;
     position: relative;
     overflow: hidden
@@ -266,9 +274,7 @@ header.no-bg {
     stroke: currentColor;
     fill: currentColor;
   }
-  .icon-SAYAMA-RS {
-    width: 2.865234375em;
-  }
+  
 .home-scr-1 .hero {
     text-align: center;
     justify-content: center;
@@ -362,10 +368,11 @@ a.center.c1:before {
 }
 .home-scr-4 .container {
     background-size: cover;
-    background-image: url(./futter.jpg);
+    background-image: url(./house1.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .home-scr-4 .container .list {
     max-width: 1200px;
     margin: 0 auto;
@@ -407,9 +414,11 @@ a.center.c1:before {
     max-width: 660px
 }
 
-.home-scr-3 .container{
-    background-image: url(./home-sect-3.jpg);
-    background-size: cover;
+
+.slider__3-backgraund{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(2, 2, 2, 0.1);
 }
 
 
@@ -459,9 +468,9 @@ span.icon-4 {
 
 
 .icon-mouse {
-   position: absolute;
-   bottom: 5%;
-   left: 50%;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
     height: 55px;
     width: 33px;
     
@@ -525,6 +534,10 @@ header .logo svg {
     top: -15px;
 }
 
+.hOne_services span {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 
 .home_five .lg {
@@ -540,7 +553,7 @@ header .logo svg {
 .lg.d-f {
     width: 100%;
     min-height: 600px;
-    max-width: 1224px;
+    max-width: 1280px;
     margin: auto;
     background-image: url(./home-sect-1.jpg);
     background-size: cover;
@@ -585,6 +598,12 @@ header .logo svg {
     margin: 20px;
 }
 
+/* //////////////////////////////Частые вопросы 3 and 4//////////////////////////// */
+.home-scr-3 .container{
+    background-image: url(./3hour.jpg);
+    background-size: cover;
+    
+}
 .accordions.d-f{
     display: flex;
     margin-left: auto;
@@ -593,6 +612,14 @@ header .logo svg {
 }
 .animated.d-1 {
     animation-delay: .1s;
+}
+.singleAccord .d-f {
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.singleAccord .d-f:Hover,
+.singleAccord .d-f:focus {
+    color: #b88e3b;
 }
 .singleAccord .d-f {
     margin-bottom: 0;
@@ -622,7 +649,7 @@ header .logo svg {
 
 .item p{
     width: 100%;
-    font-size: 12px;
+    font-size: 16px;
 }
 .item{
     display: none;
@@ -630,17 +657,17 @@ header .logo svg {
 .d-f:hover ~ .item,
 .d-f:active ~ .item {
     display: block;
+    
 }
-
-.home-scr-1 .container{
-    /* background: rgba(2, 2, 2, 0.3); */
+.slider__3-backgraund{
+    background: rgba(2, 2, 2, 0.3);
 }
 
 .hOne_title {
 margin-top: 70px;
-height: 100vh;
+/* height: 100vh; */
 text-align: center;
-align-items: flex-end;
+align-items: center;
 justify-content: center;
 color: #fff;
 }
@@ -676,8 +703,98 @@ h1.fadeInUp {
     color: #fff;
     text-align: center;
     font-size: 14px;
+    
+}
+.slider__3-item {
+    display: flex;
+    width: 1280px;
+    margin: 50px auto;
+ }
+ .slider__3-list {
+     height: 250px;
+     width: 200px;
+     margin-left: 20px;
+ }
+ 
+ 
+ .slider__3-img {
+     height: auto;
+     width: 200px;
+ }
+ .slider__3-text {
+     font-size: 15px;
+     line-height: 20px;
+     text-align: center;
+     padding: 0 3px;
+     color: #fff;
+     background-color: black;
+ }
+
+
+/* //////////////////////////////Частые вопросы//////////////////////////// */
+
+
+/* ////////////////////////section-5////////////////////////////// */
+
+
+.section-5 .home_four{
+    background-image: url(./baseyn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    
+}
+.home_four__container{
+    justify-content: center;
+}
+ .hFour_items {
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+    color: #fff;
+    margin: 150px auto;
+}
+.section-5__svg{
+    width: 80px;
+    height: 80px;
+    fill: #fff;
+    margin-right: 20px;
+}
+.hTwo_title {
+    margin-top: 200px;
 }
 
+.hFour_singleItem{
+    display: flex;
+    width: 340px;
+    margin-right: 90px;
+    align-items: center;
+    justify-content: center;
+}
+.hFour_singleItem.d-3{
+    margin-right: 0px;
+}
+.hFour_singleItem span {
+    max-width: 230px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: start;
+}
+.hFour_singleItem {
+    margin-bottom: 48px;
+}
+/* ////////////////////////section-5////////////////////////////// */
+
+
+
+/* ///////////////footer///////////////// */
+
+.footer .container {
+    background-size: cover;
+    background-image: url(./futter.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .contacts{
     width: 100%;
     max-width: 1250px;
@@ -732,6 +849,11 @@ h1.fadeInUp {
     text-decoration: none;
     text-align: start;
     color: #fff;
+}
+
+.contacts .description .fadeInUp-link:hover,
+.contacts .description .fadeInUp-link:focus{
+    color: #B88E3B;
 }
 .mapGoogle.active {
     display: block;
@@ -788,7 +910,7 @@ text-align: end;
     margin-bottom: 20px;
     outline: none;
     border-radius: 0;
-    color: #fff;
+    color: rgb(0, 0, 0);
     
 }
 
@@ -845,6 +967,15 @@ form div{
     fill: rgb(0, 0, 0);
 }
 
+.fadeInUp__svg:hover, 
+.fadeInUp__svg:focus{
+    fill: #B88E3B;
+}
+.wpcf7-form-control::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+/* ///////////////footer///////////////// */
 
 @media (min-width: 1050px) {
     .touchdev .home-scr-1 h1, .left-picture {
@@ -1341,152 +1472,3 @@ form div{
 .fadeInRight {
   	animation-name: fadeInRight;
 }
-
-
-.home-scr-4 .container.BODY {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-image: url(./more.jpg);
-    /* background-image: url(./more.jpg) no-repeat center bottom; */
-    }
-  
-  .stage {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background: rgb(70, 130, 180, 0.5);
-    box-shadow: 0 -400px 300px -300px rgb(255, 102, 0); inset;
-    animation: sky-change 35s infinite linear;
-    
-  }
-  .sun {
-    position: absolute;
-    left: -5%;
-    top: 45%;
-    width: 10em;
-    height: 10em;
-    margin-left: -2.5em;
-    margin-top: 0;
-    background: rgb(255, 102, 0);
-    border-radius: 50%;
-    box-shadow: 0 0 20px orange;
-    animation: 35s infinite linear;
-    animation-name: sun-move, sun-color;
-    background: url(./more.jpg) no-repeat center bottom;
-    }
-  
-  .grass {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: -5px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-
-
-  }
-  
-  @keyframes sky-change {
-    
-    0% {
-        background: rgb(26, 23, 44, 0.8);
-        
-      }
-      25% {
-        background: rgb(135, 206, 235, 0.5);
-        /* box-shadow: 0 -400px 300px -300px rgb(119, 168, 209) inset; */
-      }
-      50% {
-        background: transparent;
-        box-shadow: 0 -400px 300px -300px rgb(70, 130, 180, 0.5) inset;
-      }
-      85% {
-        background: rgb(72, 61, 139, 0.7);
-        box-shadow: 0 -300px 200px -200px rgb(247, 133, 2, 0.5) inset;
-      }
-      100% {
-        background: rgb(26, 23, 44, 0.8);
-      }
-  }
-  
-  @keyframes sun-move {
-    0% {
-    }
-    10% {
-      margin-left: -4.5em;
-      top: 40%;
-    }
-    20% {
-      margin-left: -5.5em;
-      top: 35%;
-    }
-    30% {
-      margin-left: -6em;
-      top: 25%;
-    }
-    40% {
-      margin-left: -4.5em;
-      top: 15%;
-    }
-    50% {
-      left: 50%;
-      top: 5%;
-      width: 5em;
-      height: 5em;
-      margin-left: -2.5em;
-      
-    }
-    60% {
-      margin-left: 1.5em;
-      top: 15%;
-    }
-    70% {
-      margin-left: 3.5em;
-      top: 25%;
-    }
-    80% {
-      margin-left: 2.5em;
-      top: 35%;
-    }
-    90% {
-      margin-left: 1em;
-    }
-    100% {
-      left: 108%;
-      margin-left: -2.5em;
-      top: 45%;
-    }
-  }
-  
-  @keyframes sun-color {
-      0%{
-          
-      background: rgb(255, 115, 0);
-      
-      box-shadow: 0 0 55px rgb(255, 123, 0);
-      }
-    20% {
-      background: orange;
-      
-      box-shadow: 0 0 55px gold;
-    }
-    40% {
-      background: gold;
-      box-shadow: 0 0 55px gold;
-    }
-    60% {
-      background: yellow;
-      box-shadow: 0 0 55px yellow;
-    }
-    80% {
-    background: orange;
-    }
-    100%{
-        background: rgb(255, 115, 0);
-        
-      box-shadow: 0 0 55px rgb(255, 115, 0);
-    }
-  }
