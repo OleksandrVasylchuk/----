@@ -1,0 +1,130 @@
+.contacts{
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+    background-color: transparent;
+
+}
+
+
+.contacts.d-f.jc-sb {  
+    display: flex;
+    margin: 0 auto;
+}
+.w75.d-f.jc-sb.fw-w{
+    width: 920px;
+
+}
+.contacts .w75 {
+    padding-bottom: 84px;
+}
+.w50 {
+    width: 50%;
+}
+.contacts .name {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.contacts .name {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+.contacts .description .item a {
+    text-decoration: none;
+    color: #fff;
+}
+.animated.d-5 {
+    animation-delay: .5s;
+}
+
+.contacts .w100 {
+    margin-top: 210px;
+    width: 800px;
+}
+.mapGoogle.active {
+    display: block;
+}
+
+.btnsMapSwitch .btnMap.active {
+    background-color: #B88E3B;
+    color: #fff;
+    width: 150px;
+}
+.btnsMapSwitch .btnMap {
+    padding: 18px 50px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fadeInUp {
+text-align: center;
+}
+
+.singlePostForm {
+    width: 240px;
+    height: 600px;
+    // box-shadow: 0px 0px 25px rgb(0 0 0 / 15%);
+    border-radius: 3px;
+    padding: 22px;
+    margin-left: 26px;
+    background-color: #fff;
+}
+
+.singlePostForm .title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+.singlePostForm .description {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+}
+.singlePostForm .form input {
+    width: 240px;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+    outline: none;
+    border-radius: 0;
+    
+}
+
+
+.singlePostForm .form {
+    margin-top: 26px;
+    margin-bottom: 16px;
+
+}
+.singlePostForm .contacts {
+    margin-top: 20px;
+}
+.singlePostForm .form .wpcf7-form textarea {
+    height: 90px;
+    width: 240px;
+    padding: 10px 0;
+    margin: 0 0 38px;
+    color: rgb(5, 5, 5);
+    border: none;
+    border-bottom: 1px solid rgb(2, 2, 2);
+    resize: vertical;
+    
+}
+.wpcf7-submit{
+    background-color: #B88E3B;
+}
+form div{
+    width: 240px;
+}
+.fadeInUp a {
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+}

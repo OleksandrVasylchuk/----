@@ -612,12 +612,12 @@ header .logo svg {
 
 .singleAccord .item {
     padding-right: 15px;
-    padding-left: 15px;
+    padding-left: 50px;
     height: 100%;
     max-height: 200px;
     overflow: hidden;
     overflow-y: auto;
-    color: rgb(71, 255, 80);
+    color: #ffffff;;
 }
 
 .item p{
@@ -673,48 +673,177 @@ h1.fadeInUp {
     max-width: 288px;
     width: 150px;
     height: 150px;
-    color: #000;
+    color: #fff;
     text-align: center;
     font-size: 14px;
 }
-.hOne_title {
+
+.contacts{
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+    background-color: transparent;
+
 }
-.wow {
+
+
+.contacts.d-f.jc-sb { 
+    margin-top: 50px; 
+    display: flex;
+    margin-left: 900px;
+}
+.w75.d-f.jc-sb.fw-w{
+    width: 520px;
+
+}
+.contacts .w75 {
+    padding-bottom: 84px;
+}
+
+.contacts .name {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.contacts .name {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+.animated.d-5 {
+    animation-delay: .5s;
+}
+
+.w100.fadeInUp {
+    margin-top: 70px;
+    width: 800px;
+    height: 358;
+}
+.w75  .fadeInUp{
+    text-align: start;
+    justify-content: start;
+    width: 400px;
+}
+
+.contacts .description .fadeInUp-link {
+    text-decoration: none;
+    text-align: start;
+    color: #fff;
+}
+.mapGoogle.active {
+    display: block;
+}
+
+.btnsMapSwitch .btnMap.active {
+    background-color: #B88E3B;
+    color: #fff;
+    width: 150px;
+}
+.btnsMapSwitch .btnMap {
+    padding: 18px 50px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
 }
 .fadeInUp {
+text-align: center;
 }
-.d-1 {
-}
-.animated {
-}
-.description {
-}
-.tac {
-}
-.d-3 {
-}
-.services {
-}
-.d-f {
-}
-.jc-sb {
-}
-.ai-c {
-}
-.singleService {
-}
-.fd-c {
-}
-.jc-c {
-}
-.d-5 {
-}
-.d-7 {
-}
-.d-9 {
+.title.fadeInUp h2 {
+    margin-top: 50px;
+text-align: end;
 }
 
 
+
+.singlePostForm {
+    width: 240px;
+    height: 610px;
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 15%);
+    border-radius: 3px;
+    padding: 22px;
+    margin-left: 26px;
+    background-color: #fff;
+}
+
+.singlePostForm .title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+.singlePostForm .description {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+}
+.singlePostForm .form input {
+    width: 240px;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+    outline: none;
+    border-radius: 0;
+    color: #fff;
+    
+}
+
+
+.singlePostForm .form {
+    margin-top: 26px;
+    margin-bottom: 16px;
+
+}
+.singlePostForm .contacts {
+    margin-top: 20px;
+}
+.singlePostForm .form .wpcf7-form textarea {
+    height: 90px;
+    width: 240px;
+    padding: 10px 0;
+    margin: 0 0 38px;
+    color: rgb(5, 5, 5);
+    border: none;
+    border-bottom: 1px solid rgb(2, 2, 2);
+    resize: vertical;
+    
+}
+.wpcf7-submit{
+    background-color: #B88E3B;
+}
+form div{
+    width: 240px;
+}
+.fadeInUp a {
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+}
+.description__fadeInUp {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.fadeInUp__svg{
+    width: 23px;
+    height: 25px;
+    fill: white;
+    margin-right: 20px;
+}
+.placeholder .fadeInUp__svg{
+    width: 60px;
+    height: 30px;
+}
+
+.social .fadeInUp__svg{
+    margin: 0px;
+    padding: 10px;
+    margin-top: 20px;
+    fill: rgb(0, 0, 0);
+}
 
 
 @media (min-width: 1050px) {
