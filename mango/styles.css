@@ -63,8 +63,11 @@ Main Components
         overflow: hidden;
     }
     body:not(.touchdev) .cd-section h2 {
-        font-size: 4rem;
+        /* font-size: 4rem; */
         font-weight: 300;
+        font-size: 40px;
+        font-weight: bold;
+    }
     }
     [data-hijacking="on"]:not(.touchdev) .cd-section {
         opacity: 1 !important;
@@ -296,7 +299,7 @@ header.no-bg {
 
 .hOne_services{
     display: flex;
-    font-size: 20px;
+    font-size: 25px;
 }
 .home-scr-1 h1:before {
     content: "";
@@ -366,35 +369,6 @@ a.center.c1:before {
     background-position: -1132px -95px;
     margin-right: 8px;
 }
-.home-scr-4 .container {
-    background-size: cover;
-    background-image: url(./house1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.home-scr-4 .container .list {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-}
-.home-scr-4 .container .list div {
-    text-align: left;
-    width: 32.333%;
-    font-size: 24px;
-    font-weight: 700;
-    display: inline-block;
-    max-width: 397px;
-    box-sizing: border-box;
-    padding-left: 46px;
-    min-height: 136px;
-    margin-bottom: 80px;
-    vertical-align: top;
-}
-.home-scr-4 .container .list div p {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 24px;
 }
 
 .home-scr-1 h1, .home-scr-1 header {
@@ -563,9 +537,18 @@ header .logo svg {
     align-items: center;
     justify-content: center; 
 }
+
+/* //////////////////////////////Частые вопросы 3 and 4//////////////////////////// */
+.home-scr-3 .container{
+    background-image: url(./3hour.jpg);
+    background-size: cover;
+    
+}
+
+
 .lg {
     width: 100%;
-    min-height: 600px;
+    min-height: 100vh;
     max-width: 1224px;
     margin: auto;
     background-size: cover;
@@ -597,18 +580,12 @@ header .logo svg {
     line-height: 150%;
     margin: 20px;
 }
-
-/* //////////////////////////////Частые вопросы 3 and 4//////////////////////////// */
-.home-scr-3 .container{
-    background-image: url(./3hour.jpg);
-    background-size: cover;
-    
-}
 .accordions.d-f{
-    display: flex;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-left: 170px;
+    justify-content: center;
+    /* margin-left: 170px; */
 }
 .animated.d-1 {
     animation-delay: .1s;
@@ -638,6 +615,9 @@ header .logo svg {
 }
 
 .singleAccord .item {
+    position: absolute;
+    top: 0;
+    right: 0;
     padding-right: 15px;
     padding-left: 50px;
     height: 100%;
@@ -648,6 +628,9 @@ header .logo svg {
 }
 
 .item p{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
     width: 100%;
     font-size: 16px;
 }
@@ -682,38 +665,54 @@ h1.fadeInUp {
 .description {
     margin-top: 40px;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
 }
 
  .services {
      display: flex;
-    margin: 20vh 0;
-    max-width: 984px;
+    margin: 20vh auto;
+    max-width: 1200px;
     /* width: 100%; */
+    justify-content: center;
+}
+.section-4__svg{
+    width: 150px;
+    height: 60px;
+    fill: #fff;
 }
 
 .singleService {
-    background-color: #FFFFFF;
-    box-shadow: 0px 0px 25px rgb(0 0 0 / 15%);
+    display: flex;
+    box-sizing: border-box;
     border-radius: 3px;
-    padding: 35px 42px 32px;
-    max-width: 288px;
-    width: 150px;
+    width: 380px;
     height: 150px;
     color: #fff;
-    text-align: center;
-    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    padding: 30px;
     
+}
+.singleService.fadeInUp p {
+    text-align: start;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 20px;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 .slider__3-item {
     display: flex;
-    width: 1280px;
-    margin: 50px auto;
+    width: 1300px;
+    margin: 0px auto;
  }
  .slider__3-list {
      height: 250px;
      width: 200px;
      margin-left: 20px;
+ }
+ .slider__3-list:first-child{
+     margin-left: 0;
  }
  
  
@@ -734,6 +733,37 @@ h1.fadeInUp {
 /* //////////////////////////////Частые вопросы//////////////////////////// */
 
 
+.home-scr-4 .container {
+    background-size: cover;
+    background-image:   url(./house1.jpg);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-scr-4 .container .list {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.home-scr-4 .container .list div {
+    text-align: left;
+    width: 32.333%;
+    font-size: 24px;
+    font-weight: 700;
+    display: inline-block;
+    max-width: 397px;
+    box-sizing: border-box;
+    padding-left: 46px;
+    min-height: 136px;
+    margin-bottom: 80px;
+    vertical-align: top;
+}
+.home-scr-4 .container .list div p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
 /* ////////////////////////section-5////////////////////////////// */
 
 
@@ -864,6 +894,11 @@ h1.fadeInUp {
     color: #fff;
     width: 150px;
 }
+.btnsMapSwitch .btnMap.active:hover,
+.btnsMapSwitch .btnMap.active:focus{
+    background-color: #d49517;
+}
+
 .btnsMapSwitch .btnMap {
     padding: 18px 50px;
     font-weight: 500;
@@ -910,9 +945,15 @@ text-align: end;
     margin-bottom: 20px;
     outline: none;
     border-radius: 0;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 253, 253);
     
 }
+.singlePostForm .form input:hover,
+.singlePostForm .form input:focus{
+    background-color: #d49517;
+}
+
+
 
 
 .singlePostForm .form {
