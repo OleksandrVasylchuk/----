@@ -24,7 +24,7 @@ body{
 .localizations {
     position: absolute;
     display: block;
-    top: 74px;
+    top: 25px;
     right: 57px;
 }
 .localizations .local-cur {
@@ -455,6 +455,7 @@ span.icon-4 {
 nav{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 1200px;
     margin: 20px auto;
 }
@@ -476,13 +477,8 @@ nav ul{
     margin-left: 0px;
 }
 header .logo svg {
-    position: a;
     width: 235px;
     height: 100px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: -15px;
     fill: #fff;
     z-index: 100;
 }
