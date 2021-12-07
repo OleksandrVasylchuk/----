@@ -618,15 +618,18 @@ header .logo svg {
     position: absolute;
     top: 0;
     right: 0;
+    transform: translateX(-1000%);
     padding-right: 15px;
     padding-left: 50px;
-    height: 100%;
-    max-height: 200px;
+    height: 500px;
+    max-height: 300px;
     overflow: hidden;
     overflow-y: auto;
     color: #ffffff;;
 }
-
+.showMenu {
+    transform: translateX(0);
+}
 .item p{
     width: 400px;
     height: 400px;
@@ -634,14 +637,15 @@ header .logo svg {
     width: 100%;
     font-size: 16px;
 }
-.item{
-    display: none;
-}
-.d-f:hover ~ .item,
+/* .singleAccord:hover .item,
+.singleAccord:active .item{
+    transform: translate(0%);
+}  */
+/* .d-f:hover ~ .item,
 .d-f:active ~ .item {
     display: block;
     
-}
+} */
 .slider__3-backgraund{
     background: rgba(2, 2, 2, 0.3);
 }
@@ -728,6 +732,12 @@ h1.fadeInUp {
      color: #fff;
      background-color: black;
  }
+
+
+/* /////////////////////////// slider///////////////////////////////// */
+
+
+/* /////////////////////////// slider///////////////////////////////// */
 
 
 /* //////////////////////////////Частые вопросы//////////////////////////// */
