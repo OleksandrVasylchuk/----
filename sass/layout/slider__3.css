@@ -87,6 +87,9 @@
   -webkit-overflow-scrolling: touch;
   overflow-y: scroll;
   background-color: transparent;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
 }
 
 .gallery-hero .content .gallery-title {

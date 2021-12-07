@@ -82,6 +82,8 @@
         -webkit-overflow-scrolling: touch;
         overflow-y: scroll;
         background-color: transparent;
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(8px);
       }
       
       .gallery-title {

@@ -68,7 +68,7 @@ Main Components
         font-size: 40px;
         font-weight: bold;
     }
-    }
+}
     [data-hijacking="on"]:not(.touchdev) .cd-section {
         opacity: 1 !important;
         visibility: hidden;
@@ -138,7 +138,7 @@ Main Components
         -o-transform-origin: center bottom;
         transform-origin: center bottom;
     }
-}
+
 
 .cd-section,
 .cd-section .container {
@@ -151,8 +151,7 @@ Main Components
 }
 
 .cd-section:first-of-type > div::before {
-    /* alert -> all scrolling effects are not visible on small devices */
-    /*content: 'Effects not visible on mobile!';*/
+
     display: none;
     position: absolute;
     width: 100%;
@@ -165,11 +164,6 @@ Main Components
     color: #6a7083;
 }
 
-
-
-header ul, section:first-child {
-    display: none
-}
 
 .home-scr-1 h1, .left-picture {
     -webkit-transform: translateY(-50%)
@@ -201,6 +195,9 @@ body {
    /* max-width: 20in*/
 }
 
+ul{
+    list-style: none;
+}
 ::-webkit-input-placeholder {
     color: #fff
 }
@@ -217,51 +214,6 @@ body {
     color: #fff
 }
 
-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 10pc;
-    padding: 47px 0px;
-    z-index: 100;
-    opacity: 0;
-    text-align: center;
-}
-
-header ul {
-    float: right
-}
-
-header ul li {
-    float: left;
-    list-style: none;
-    margin-left: 52px
-}
-
-header ul li a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 18px;
-    transition: color .3s ease
-}
-
-header.inverse-color a {
-    color: #999
-}
-
-header.inverse-color .logo {
-    float: left
-}
-
-header.white-menu a {
-    color: #fff
-}
-
-header.no-bg {
-    background: 0 0;
-    height: 60px
-}
 
 .container {
     padding: 0;
@@ -368,7 +320,6 @@ a.center.c1:before {
     background: url("mangosp.svg");
     background-position: -1132px -95px;
     margin-right: 8px;
-}
 }
 
 .home-scr-1 h1, .home-scr-1 header {
@@ -496,16 +447,41 @@ span.icon-4 {
     animation-iteration-count: 3;
 }
 
+/* /////////////////////////header/////////////////////////// */
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: 20px auto;
+}
+nav ul{
+    display: flex;
+    margin-left: 135px;
+}
 
 
+
+
+.nav__list {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 20px;
+}
+.nav__list:first-child{
+    margin-left: 0px;
+}
 header .logo svg {
-    position: relative;
+    position: a;
     width: 235px;
     height: 100px;
     left: 0;
     right: 0;
     margin: auto;
     top: -15px;
+    fill: #fff;
+    z-index: 100;
 }
 
 .hOne_services span {
@@ -530,6 +506,7 @@ header .logo svg {
     max-width: 1280px;
     margin: auto;
     background-image: url(./home-sect-1.jpg);
+    background-position: center;
     background-size: cover;
     visibility: visible;
     animation-name: fadeInLeft;
@@ -542,6 +519,9 @@ header .logo svg {
 .home-scr-3 .container{
     background-image: url(./3hour.jpg);
     background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+ 
     
 }
 
@@ -746,7 +726,7 @@ h1.fadeInUp {
 .home-scr-4 .container {
     background-size: cover;
     background-image:   url(./house1.jpg);
-    
+    background-position: center;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -779,6 +759,7 @@ h1.fadeInUp {
 
 .section-5 .home_four{
     background-image: url(./baseyn.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
