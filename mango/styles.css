@@ -832,7 +832,7 @@ h1.fadeInUp {
 .contacts.d-f.jc-sb { 
     margin-top: 50px; 
     display: flex;
-    margin-left: 900px;
+    justify-content: flex-end;
 }
 .w75.d-f.jc-sb.fw-w{
     width: 520px;
