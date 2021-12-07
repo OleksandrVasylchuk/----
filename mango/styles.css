@@ -19,6 +19,10 @@ a:focus {
 body{
     font-family: 'Open Sans', sans-serif;
 }
+h1,
+h2{
+    text-transform: uppercase;
+}
 
 
 .localizations {
@@ -523,6 +527,9 @@ header .logo svg {
  
     
 }
+.slider__2{
+
+}
 
 
 .lg {
@@ -537,9 +544,40 @@ header .logo svg {
     align-items: center;
     justify-content: center; 
 }
+.lg.slider__2 {
+    display: flex;
+}
+.about_result {
+    height: 510px;
+    width: 500px;
+}
+.about_result h2{
+    margin-bottom: 50px;
+}
+.singleResult{
+    display: flex;
+    align-items: center;
+}
+.singleResult .number {
+    font-size: 45px;
+    line-height: 76px;
+    color: #fcfcfc;
+    margin-top: 26px;
+    text-align: start;
+    margin-right: 20px;
+    width: 200px;
+}
+.numberDescription {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    text-align: start;
+    width: 280px;
+}
 
 .hThree_title h2{
-    padding-top: 100px;
+    padding-top: 80px;
     font-size: 30px;
     color: rgb(247, 243, 243);
 
@@ -550,11 +588,12 @@ header .logo svg {
     height: 100%;
     background-color: transparent;
     padding: 0px 42px 54px 74px;
-    margin: 40px 0 0 700px;
+    /* margin: 40px 0 0 100px; */
 }
 
 .home_five .lg .description p {
-    font-size: 15px;
+    font-size: 20px;
+    text-align: start;
     color: rgb(247, 243, 243);
     line-height: 150%;
     margin: 20px;
