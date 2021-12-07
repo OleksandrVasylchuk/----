@@ -16,6 +16,9 @@ a:focus {
     color: #B88E3B;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 
 
 .localizations {
