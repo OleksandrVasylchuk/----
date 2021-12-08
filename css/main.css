@@ -169,7 +169,7 @@ header .logo svg {
   min-height: 600px;
   max-width: 1280px;
   margin: auto;
-  background-image: url(../../img/home-sect-1.jpg);
+  background-image: url(./../img/home-sect-1.jpg);
   background-position: center;
   background-size: cover;
   visibility: visible;
@@ -180,7 +180,7 @@ header .logo svg {
 }
 
 .cd-section:first-of-type > div {
-  background: url(../../img/hero.jpg) center no-repeat;
+  background: url(./../img/hero.jpg) center no-repeat;
   background-size: cover;
 }
 
@@ -291,7 +291,7 @@ header .logo svg {
 .footer .container {
   background-size: cover;
   /* background-image: url(./futter.jpg); */
-  background-image: url(../../img/пшкдjpg.jpg);
+  background-image: url(./../img/пшкдjpg.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -743,7 +743,7 @@ h1.fadeInUp {
 }
 
 .section-5 .home_four {
-  background-image: url(../../img/baseyn.jpg);
+  background-image: url(./../img/baseyn.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -797,7 +797,7 @@ h1.fadeInUp {
 }
 
 .home-scr-3 .container {
-  background-image: url(../../img/slider__3jpg.jpg);
+  background-image: url(./../img/slider__3jpg.jpg);
   background-size: cover;
   background-position: center;
   /* background-repeat: no-repeat; */
@@ -1081,7 +1081,7 @@ h1.fadeInUp {
 
 .home-scr-4 .container {
   background-size: cover;
-  background-image: url(../../img/house1.jpg);
+  background-image: url(./../img/house1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-position: center;

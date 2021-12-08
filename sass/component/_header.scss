@@ -119,7 +119,7 @@ header .logo svg {
     min-height: 600px;
     max-width: 1280px;
     margin: auto;
-    background-image: url(../../img/home-sect-1.jpg);
+    background-image: url(./../img/home-sect-1.jpg);
     background-position: center;
     background-size: cover;
     visibility: visible;
@@ -130,7 +130,7 @@ header .logo svg {
 }
 
 .cd-section:first-of-type > div {
-    background: url(../../img/hero.jpg) center no-repeat;
+    background: url(./../img/hero.jpg) center no-repeat;
     background-size: cover;
 }
 
