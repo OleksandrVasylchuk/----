@@ -49,21 +49,13 @@ h2 {
 
 nav {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   margin: 20px auto;
 }
 
 nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-left: 135px;
 }
@@ -109,9 +101,7 @@ header .logo svg {
 
 .home-scr-1 .hero {
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   color: #ffffff;
   position: relative;
   max-width: 994px;
@@ -124,15 +114,11 @@ header .logo svg {
 }
 
 .hOne_services {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   text-align: center;
 }
 
 .hOne_services {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-size: 25px;
 }
@@ -169,17 +155,13 @@ header .logo svg {
 }
 
 .home_five .lg {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .lg.d-f {
   visibility: visible;
-  -webkit-animation-delay: 0.7s;
-          animation-delay: 0.7s;
-  -webkit-animation-name: fadeInRight;
-          animation-name: fadeInRight;
+  animation-delay: 0.7s;
+  animation-name: fadeInRight;
 }
 
 .lg.d-f {
@@ -191,15 +173,10 @@ header .logo svg {
   background-position: center;
   background-size: cover;
   visibility: visible;
-  -webkit-animation-name: fadeInLeft;
-          animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
   color: white;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .cd-section:first-of-type > div {
@@ -255,31 +232,6 @@ header .logo svg {
   width: 33px;
 }
 
-@-webkit-keyframes bounce {
-  from, 20%, 40%, 60%, 80%, to {
-    -webkit-animation-timing-function: cubic-bezier(1.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-  40% {
-    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    -webkit-transform: translate3d(0, 10px, 0);
-    transform: translate3d(0, 10px, 0);
-  }
-  70% {
-    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    -webkit-transform: translate3d(0, 12px, 0);
-    transform: translate3d(0, 12px, 0);
-  }
-  90% {
-    -webkit-transform: translate3d(0, 5px, 0);
-    transform: translate3d(0, 5px, 0);
-  }
-}
-
 @keyframes bounce {
   from, 20%, 40%, 60%, 80%, to {
     -webkit-animation-timing-function: cubic-bezier(1.215, 0.61, 0.355, 1);
@@ -315,13 +267,12 @@ header .logo svg {
   -webkit-transform-origin: center bottom;
   transform-origin: center bottom;
   -webkit-animation-delay: 5s;
+  -moz-animation-delay: 5s;
+  -o-animation-delay: 5s;
   animation-delay: 1s;
-  -webkit-transition-timing-function: ease-in;
-          transition-timing-function: ease-in;
-  -webkit-transition-duration: 10s;
-          transition-duration: 10s;
-  -webkit-animation-iteration-count: 3;
-          animation-iteration-count: 3;
+  transition-timing-function: ease-in;
+  transition-duration: 10s;
+  animation-iteration-count: 3;
 }
 
 @media screen and (min-width: 1024px) {
@@ -354,12 +305,8 @@ header .logo svg {
 
 .contacts.d-f.jc-sb {
   margin-top: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .w75.d-f.jc-sb.fw-w {
@@ -386,8 +333,7 @@ header .logo svg {
 }
 
 .animated.d-5 {
-  -webkit-animation-delay: .5s;
-          animation-delay: .5s;
+  animation-delay: .5s;
 }
 
 .w100.fadeInUp {
@@ -397,9 +343,7 @@ header .logo svg {
 
 .w75 .fadeInUp {
   text-align: start;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  justify-content: start;
   width: 400px;
 }
 
@@ -521,13 +465,9 @@ form div {
 }
 
 .description__fadeInUp {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   font-size: 20px;
 }
 
@@ -555,18 +495,6 @@ form div {
   fill: #B88E3B;
 }
 
-.wpcf7-form-control::-webkit-input-placeholder {
-  color: black;
-}
-
-.wpcf7-form-control:-ms-input-placeholder {
-  color: black;
-}
-
-.wpcf7-form-control::-ms-input-placeholder {
-  color: black;
-}
-
 .wpcf7-form-control::placeholder {
   color: black;
 }
@@ -575,17 +503,10 @@ form div {
   margin: auto;
   background-size: cover;
   visibility: visible;
-  -webkit-animation-name: fadeInLeft;
-          animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
   color: white;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: flex-start;
+  justify-content: center;
   display: flex;
 }
 
@@ -600,12 +521,8 @@ form div {
 }
 
 .singleResult {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .singleResult .number {
@@ -651,15 +568,12 @@ form div {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   /* margin-left: 170px; */
 }
 
 .animated.d-1 {
-  -webkit-animation-delay: .1s;
-          animation-delay: .1s;
+  animation-delay: .1s;
 }
 
 .singleAccord .d-f {
@@ -692,8 +606,7 @@ form div {
   position: absolute;
   top: 0;
   right: 0;
-  -webkit-transform: translateX(-1000%);
-          transform: translateX(-1000%);
+  transform: translateX(-1000%);
   padding-right: 15px;
   padding-left: 50px;
   height: 500px;
@@ -704,8 +617,7 @@ form div {
 }
 
 .showMenu {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
 }
 
 .item p {
@@ -724,12 +636,8 @@ form div {
   margin-top: 70px;
   /* height: 100vh; */
   text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   color: #fff;
 }
 
@@ -747,15 +655,11 @@ h1.fadeInUp {
 }
 
 .services {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 20vh auto;
   max-width: 1200px;
   /* width: 100%; */
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .section-4__svg {
@@ -765,21 +669,14 @@ h1.fadeInUp {
 }
 
 .singleService {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 3px;
   width: 380px;
   height: 150px;
   color: #fff;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   font-size: 15px;
   padding: 30px;
 }
@@ -793,8 +690,6 @@ h1.fadeInUp {
 }
 
 .slider__3-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 1300px;
   margin: 0px auto;
@@ -856,18 +751,13 @@ h1.fadeInUp {
 }
 
 .home_four__container {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .hFour_items {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 1200px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   color: #fff;
   margin: 150px auto;
 }
@@ -884,17 +774,11 @@ h1.fadeInUp {
 }
 
 .hFour_singleItem {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 340px;
   margin-right: 90px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .hFour_singleItem.d-3 {
@@ -925,8 +809,7 @@ h1.fadeInUp {
   width: 100%;
   margin: 0 auto;
   max-width: 300px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .lg {
@@ -935,15 +818,10 @@ h1.fadeInUp {
   margin: auto;
   background-size: cover;
   visibility: visible;
-  -webkit-animation-name: fadeInLeft;
-          animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
   color: white;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .slider__3 .hThree_title {
@@ -962,8 +840,7 @@ h1.fadeInUp {
 .gallery-hero .content img {
   width: 700px;
   height: 650px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .gallery-hero .gallery__item {
@@ -980,13 +857,10 @@ h1.fadeInUp {
 }
 
 .gallery-hero .item-hugger {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
   height: 60px;
   margin: 20px 0;
-  -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
 }
 
@@ -1006,7 +880,6 @@ h1.fadeInUp {
   width: 430px;
   font-size: 25px;
   color: #fcfcfc;
-  -webkit-transition: all 150ms linear;
   transition: all 150ms linear;
   margin: 5px;
   list-style: circle;
@@ -1019,6 +892,7 @@ h1.fadeInUp {
   right: 0px;
   opacity: 0;
   -webkit-box-shadow: 8px 11px 27px -9px black;
+  -moz-box-shadow: 8px 11px 27px -9px black;
   box-shadow: 8px 11px 27px -9px black;
 }
 
@@ -1028,18 +902,15 @@ h1.fadeInUp {
   left: 0;
   z-index: 10;
   padding: 30px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
   height: 650px;
-  -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
   -webkit-overflow-scrolling: touch;
   overflow-y: scroll;
   background-color: transparent;
   background-color: rgba(0, 0, 0, 0.5);
-  -webkit-backdrop-filter: blur(8px);
-          backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -1104,14 +975,12 @@ h1.fadeInUp {
 .relative.content__image img {
   width: 1272px;
   height: 466px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .content__image {
   height: 466px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1438px) {
@@ -1134,10 +1003,8 @@ h1.fadeInUp {
   .gallery-hero .content img {
     width: 300px;
     height: 500px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    -o-object-position: 80%;
-       object-position: 80%;
+    object-fit: cover;
+    object-position: 80%;
   }
   .gallery-hero .content .content__info {
     position: absolute;
@@ -1176,10 +1043,8 @@ h1.fadeInUp {
   .gallery-hero .content img {
     width: 710px;
     height: 466px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    -o-object-position: 80%;
-       object-position: 80%;
+    object-fit: cover;
+    object-position: 80%;
   }
   .gallery-hero .content .content__info {
     position: absolute;
@@ -1235,8 +1100,7 @@ h1.fadeInUp {
   font-weight: 700;
   display: inline-block;
   max-width: 397px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding-left: 46px;
   min-height: 136px;
   margin-bottom: 80px;

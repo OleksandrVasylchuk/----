@@ -1,8 +1,16 @@
 
+@import "./base/base";
 @import "./base/_container.scss";
 
 
+@import "./component/header";
+@import "./component/footer";
 
+
+
+@import "./layout/section__3-4";
+@import "./layout/section5";
 @import "./layout/slider__3.scss";
+@import "./layout/slider__4";
 
 @import "./utils/variables";

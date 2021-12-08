@@ -1,0 +1,31 @@
+.home-scr-4 .container {
+    background-size: cover;
+    background-image:   url(../../img/house1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-scr-4 .container .list {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.home-scr-4 .container .list div {
+    text-align: left;
+    width: 32.333%;
+    font-size: 24px;
+    font-weight: 700;
+    display: inline-block;
+    max-width: 397px;
+    box-sizing: border-box;
+    padding-left: 46px;
+    min-height: 136px;
+    margin-bottom: 80px;
+    vertical-align: top;
+}
+.home-scr-4 .container .list div p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}

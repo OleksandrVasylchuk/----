@@ -1,0 +1,246 @@
+nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // width: 1200px;
+    margin: 20px auto;
+}
+nav ul{
+    display: flex;
+    margin-left: 135px;
+}
+
+
+
+
+.nav__list {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 20px;
+}
+.nav__list:first-child{
+    margin-left: 0px;
+}
+header .logo svg {
+    width: 235px;
+    height: 100px;
+    fill: #fff;
+    z-index: 100;
+}
+
+.hOne_services span {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.container {
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden
+}
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  
+.home-scr-1 .hero {
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    position: relative;
+    max-width: 994px;
+    margin: 250px auto;
+}
+
+.hero h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hOne_services{
+    justify-content: center;
+    text-align: center;
+}
+
+.hOne_services{
+    display: flex;
+    font-size: 25px;
+}
+.home-scr-1 h1:before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 1px;
+    width: 84%;
+    top: 147px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #ffffff;
+}
+
+.home-scr-1 h1 span {
+    font-size: 36px;
+    display: block;
+    line-height: 6rem;
+    font-weight: 400;
+    text-transform: none;
+    position: relative;
+    margin-top: 103px;
+}
+.home-scr-1 h1 span .font-l {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    margin-top: 14px;
+}
+
+.home_five .lg {
+    justify-content: flex-end;
+}
+.lg.d-f{
+    
+    visibility: visible;
+    animation-delay: 0.7s;
+    animation-name: fadeInRight;
+}
+
+.lg.d-f {
+    width: 100%;
+    min-height: 600px;
+    max-width: 1280px;
+    margin: auto;
+    background-image: url(../../img/home-sect-1.jpg);
+    background-position: center;
+    background-size: cover;
+    visibility: visible;
+    animation-name: fadeInLeft;
+    color: white;
+    align-items: center;
+    justify-content: center; 
+}
+
+.cd-section:first-of-type > div {
+    background: url(../../img/hero.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.localizations {
+    position: absolute;
+    display: block;
+    top: 25px;
+    right: 57px;
+}
+.localizations .local-cur {
+    display: none;
+}
+.localizations ul {
+    display: block;
+}
+.localizations li {
+    width: 41px;
+    height: 41px;
+    border-radius: 50px;
+    line-height: 41px;
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin: 0;
+}
+.localizations li.active {
+    background: #B88E3B;
+    ;
+}
+.localizations a {
+    font-size: 10px;
+    color: #ffffff;
+    line-height: 41px;
+    vertical-align: top;
+    display: inline-block;
+    font-weight: 900;
+}
+
+
+
+.icon-mouse {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    height: 55px;
+    width: 33px;
+    
+}
+
+@keyframes bounce {
+    from, 20%, 40%,60%, 80%, to {
+        -webkit-animation-timing-function: cubic-bezier(1.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+
+    40% {
+        -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        -webkit-transform: translate3d(0, 10px, 0);
+        transform: translate3d(0, 10px, 0);
+    }
+
+    70% {
+        -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        -webkit-transform: translate3d(0, 12px, 0);
+        transform: translate3d(0, 12px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0,5px,0);
+        transform: translate3d(0,5px,0);
+    }
+}
+
+.bounce {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    -o-animation-delay: 5s;
+    animation-delay: 1s;
+    transition-timing-function: ease-in;
+    transition-duration: 10s;
+    animation-iteration-count: 3;
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .home-scr-1 .hero {
+      
+    margin: 120px auto; 
+    }
+    .home-scr-1 h1:before {
+        width: 84%;
+        top: 147px;
+    }
+
+    .hOne_services {
+        margin-top: 50px;
+    }
+}
