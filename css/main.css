@@ -5,6 +5,11 @@ body {
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   background: url(../../mango/hero.jpg) center no-repeat;
+  background: linear-gradient(to bottom, #0a0a0a, #021a35);
+}
+
+.bascground {
+  background: linear-gradient(to bottom, #0a0a0a, #021a35);
 }
 
 a {
@@ -20,31 +25,6 @@ a:focus {
 h1,
 h2 {
   text-transform: uppercase;
-}
-
-.container {
-  display: block;
-  width: 100%;
-  margin: 0 auto;
-  max-width: 320px;
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
 }
 
 nav {
@@ -286,217 +266,6 @@ header .logo svg {
   .hOne_services {
     margin-top: 50px;
   }
-}
-
-.footer .container {
-  background-size: cover;
-  /* background-image: url(./futter.jpg); */
-  background-image: url(./../img/пшкдjpg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.contacts {
-  width: 100%;
-  max-width: 1250px;
-  margin: auto;
-  background-color: transparent;
-}
-
-.contacts.d-f.jc-sb {
-  margin-top: 50px;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.w75.d-f.jc-sb.fw-w {
-  width: 520px;
-}
-
-.contacts .w75 {
-  padding-bottom: 84px;
-}
-
-.contacts .name {
-  font-weight: 500;
-  font-size: 23px;
-  line-height: 27px;
-  margin-bottom: 30px;
-  color: #fff;
-}
-
-.contacts .name {
-  font-weight: 500;
-  font-size: 23px;
-  line-height: 27px;
-  margin-bottom: 30px;
-}
-
-.animated.d-5 {
-  animation-delay: .5s;
-}
-
-.w100.fadeInUp {
-  width: 800px;
-  height: 358;
-}
-
-.w75 .fadeInUp {
-  text-align: start;
-  justify-content: start;
-  width: 400px;
-}
-
-.contacts .description .fadeInUp-link {
-  text-decoration: none;
-  text-align: start;
-  color: #fff;
-}
-
-.contacts .description .fadeInUp-link:hover,
-.contacts .description .fadeInUp-link:focus {
-  color: #B88E3B;
-}
-
-.mapGoogle.active {
-  display: block;
-}
-
-.btnsMapSwitch .btnMap.active {
-  background-color: #B88E3B;
-  color: #fff;
-  width: 150px;
-}
-
-.btnsMapSwitch .btnMap.active:hover,
-.btnsMapSwitch .btnMap.active:focus {
-  background-color: #d49517;
-}
-
-.btnsMapSwitch .btnMap {
-  padding: 18px 50px;
-  font-weight: 500;
-  font-size: 16px;
-  background-color: transparent;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.fadeInUp {
-  text-align: center;
-}
-
-.title.fadeInUp h2 {
-  margin-top: 50px;
-  text-align: end;
-}
-
-.singlePostForm {
-  width: 240px;
-  height: 610px;
-  border-radius: 3px;
-  padding: 22px;
-  margin-left: 26px;
-  background-color: #fff;
-  color: black;
-}
-
-.singlePostForm .title {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-  color: black;
-  font-weight: bold;
-}
-
-.singlePostForm .description {
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 14px;
-}
-
-.singlePostForm .form input {
-  width: 240px;
-  padding: 10px 0;
-  border: none;
-  border-bottom: 1px solid black;
-  margin-bottom: 20px;
-  outline: none;
-  border-radius: 0;
-  color: #fffdfd;
-}
-
-.singlePostForm .form input:hover,
-.singlePostForm .form input:focus {
-  background-color: #d49517;
-}
-
-.singlePostForm .form {
-  margin-top: 26px;
-  margin-bottom: 16px;
-}
-
-.singlePostForm .contacts {
-  margin-top: 20px;
-}
-
-.singlePostForm .form .wpcf7-form textarea {
-  height: 90px;
-  width: 240px;
-  padding: 10px 0;
-  margin: 0 0 38px;
-  color: #050505;
-  border: none;
-  border-bottom: 1px solid #020202;
-  resize: vertical;
-}
-
-.wpcf7-submit {
-  background-color: #B88E3B;
-}
-
-form div {
-  width: 240px;
-}
-
-.fadeInUp a {
-  text-decoration: none;
-  color: #050505;
-}
-
-.description__fadeInUp {
-  display: flex;
-  margin-top: 20px;
-  align-items: center;
-  font-size: 20px;
-}
-
-.fadeInUp__svg {
-  width: 23px;
-  height: 25px;
-  fill: white;
-  margin-right: 20px;
-}
-
-.placeholder .fadeInUp__svg {
-  width: 60px;
-  height: 30px;
-}
-
-.social .fadeInUp__svg {
-  margin: 0px;
-  padding: 10px;
-  margin-top: 20px;
-  fill: black;
-}
-
-.fadeInUp__svg:hover,
-.fadeInUp__svg:focus {
-  fill: #B88E3B;
-}
-
-.wpcf7-form-control::placeholder {
-  color: black;
 }
 
 .lg.slider__2 {
@@ -742,65 +511,10 @@ h1.fadeInUp {
   }
 }
 
-.section-5 .home_four {
-  background-image: url(./../img/baseyn.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-}
-
-.home_four__container {
-  justify-content: center;
-}
-
-.hFour_items {
-  display: flex;
-  width: 1200px;
-  flex-wrap: wrap;
-  color: #fff;
-  margin: 150px auto;
-}
-
-.section-5__svg {
-  width: 80px;
-  height: 80px;
-  fill: #fff;
-  margin-right: 20px;
-}
-
-.hTwo_title {
-  margin-top: 200px;
-}
-
-.hFour_singleItem {
-  display: flex;
-  width: 340px;
-  margin-right: 90px;
-  align-items: center;
-  justify-content: center;
-}
-
-.hFour_singleItem.d-3 {
-  margin-right: 0px;
-}
-
-.hFour_singleItem span {
-  max-width: 230px;
-  font-size: 18px;
-  line-height: 21px;
-  text-align: start;
-}
-
-.hFour_singleItem {
-  margin-bottom: 48px;
-}
-
 .home-scr-3 .container {
   background-image: url(./../img/slider__3jpg.jpg);
   background-size: cover;
   background-position: center;
-  /* background-repeat: no-repeat; */
 }
 
 .container__gallery-hero {
@@ -1079,9 +793,9 @@ h1.fadeInUp {
   }
 }
 
-.home-scr-4 .container {
+.slider__4 .container {
   background-size: cover;
-  background-image: url(./../img/house1.jpg);
+  background-image: url(./../img/house4.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-position: center;
@@ -1113,10 +827,274 @@ h1.fadeInUp {
   line-height: 24px;
 }
 
+.section-5 .home_four {
+  background-image: url(./../img/baseyn.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home_four__container {
+  justify-content: center;
+}
+
+.hFour_items {
+  display: flex;
+  width: 1200px;
+  flex-wrap: wrap;
+  color: #fff;
+  margin: 150px auto;
+}
+
+.section-5__svg {
+  width: 80px;
+  height: 80px;
+  fill: #fff;
+  margin-right: 20px;
+}
+
+.hTwo_title {
+  margin-top: 200px;
+}
+
+.hFour_singleItem {
+  display: flex;
+  width: 340px;
+  margin-right: 90px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hFour_singleItem.d-3 {
+  margin-right: 0px;
+}
+
+.hFour_singleItem span {
+  max-width: 230px;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: start;
+}
+
+.hFour_singleItem {
+  margin-bottom: 48px;
+}
+
 :root {
   --primary-text-color: #000;
   --primary-white-color: #fff;
   --accent-color: #B88E3B;
   --gray-color: #e7e7e7;
+}
+
+.footer .container {
+  background-size: cover;
+  /* background-image: url(./futter.jpg); */
+  background-image: url(../../img/пшкдjpg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contacts {
+  width: 100%;
+  max-width: 1250px;
+  margin: auto;
+  background-color: transparent;
+}
+
+.contacts.d-f.jc-sb {
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.w75.d-f.jc-sb.fw-w {
+  width: 520px;
+}
+
+.contacts .w75 {
+  padding-bottom: 84px;
+}
+
+.contacts .name {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 27px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.contacts .name {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+
+.animated.d-5 {
+  animation-delay: .5s;
+}
+
+.w100.fadeInUp {
+  width: 800px;
+  height: 358;
+}
+
+.w75 .fadeInUp {
+  text-align: start;
+  justify-content: start;
+  width: 400px;
+}
+
+.contacts .description .fadeInUp-link {
+  text-decoration: none;
+  text-align: start;
+  color: #fff;
+}
+
+.contacts .description .fadeInUp-link:hover,
+.contacts .description .fadeInUp-link:focus {
+  color: #B88E3B;
+}
+
+.mapGoogle.active {
+  display: block;
+}
+
+.btnsMapSwitch .btnMap.active {
+  background-color: #B88E3B;
+  color: #fff;
+  width: 150px;
+}
+
+.btnsMapSwitch .btnMap.active:hover,
+.btnsMapSwitch .btnMap.active:focus {
+  background-color: #d49517;
+}
+
+.btnsMapSwitch .btnMap {
+  padding: 18px 50px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.fadeInUp {
+  text-align: center;
+}
+
+.title.fadeInUp h2 {
+  margin-top: 50px;
+  text-align: end;
+}
+
+.singlePostForm {
+  width: 240px;
+  height: 610px;
+  border-radius: 3px;
+  padding: 22px;
+  margin-left: 26px;
+  background-color: #fff;
+  color: black;
+}
+
+.singlePostForm .title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+  font-weight: bold;
+}
+
+.singlePostForm .description {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.singlePostForm .form input {
+  width: 240px;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  outline: none;
+  border-radius: 0;
+  color: #fffdfd;
+}
+
+.singlePostForm .form input:hover,
+.singlePostForm .form input:focus {
+  background-color: #d49517;
+}
+
+.singlePostForm .form {
+  margin-top: 26px;
+  margin-bottom: 16px;
+}
+
+.singlePostForm .contacts {
+  margin-top: 20px;
+}
+
+.singlePostForm .form .wpcf7-form textarea {
+  height: 90px;
+  width: 240px;
+  padding: 10px 0;
+  margin: 0 0 38px;
+  color: #050505;
+  border: none;
+  border-bottom: 1px solid #020202;
+  resize: vertical;
+}
+
+.wpcf7-submit {
+  background-color: #B88E3B;
+}
+
+form div {
+  width: 240px;
+}
+
+.fadeInUp a {
+  text-decoration: none;
+  color: #050505;
+}
+
+.description__fadeInUp {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  font-size: 20px;
+}
+
+.fadeInUp__svg {
+  width: 23px;
+  height: 25px;
+  fill: white;
+  margin-right: 20px;
+}
+
+.placeholder .fadeInUp__svg {
+  width: 60px;
+  height: 30px;
+}
+
+.social .fadeInUp__svg {
+  margin: 0px;
+  padding: 10px;
+  margin-top: 20px;
+  fill: black;
+}
+
+.fadeInUp__svg:hover,
+.fadeInUp__svg:focus {
+  fill: #B88E3B;
+}
+
+.wpcf7-form-control::placeholder {
+  color: black;
 }
 /*# sourceMappingURL=main.css.map */

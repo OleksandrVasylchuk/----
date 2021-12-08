@@ -314,7 +314,6 @@ header.no-bg {
     left: 0;
     right: 0;
     margin: auto;
-    background: #357138;
 }
 
 .home-scr-1 h1 span {
@@ -374,9 +373,7 @@ a.center.c1:before {
     background-position: -1132px -95px;
     margin-right: 8px;
 }
-.home-scr-4 .container {
-    background: #357138;
-}
+
 .home-scr-4 .container .list {
     max-width: 1200px;
     margin: 0 auto;
@@ -436,23 +433,22 @@ a.center.c1:before {
 }
 
 .right-text-block h2 {
-    color: #f16682;
+    
     text-align: left;
     margin-bottom: 2rem;
     opacity: 0
 }
 
 .right-text-block p {
-    color: #666;
+    
     margin-bottom: 4rem;
     line-height: 3rem;
     opacity: 0
 }
 
 .right-text-block span.link {
-    border: 1px solid #f16682;
     line-height: 30px;
-    color: #f16682;
+    
     text-decoration: none;
     padding: 8px 20px 4px;
     display: inline-block;
@@ -461,7 +457,6 @@ a.center.c1:before {
 }
 
 .right-text-block span.link:hover {
-    background: #f2708a;
     cursor: pointer;
     color: #fff
 }
@@ -583,7 +578,7 @@ span.icon-4 {
 }
 
 .home-scr-4 .block-center p {
-    color: #666;
+    
 }
 
 .home-scr-4 .form-block {

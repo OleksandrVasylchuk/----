@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 body {
   font-family: 'Open Sans', 'Gotham Pro', sans-serif;
   font-weight: 400;
@@ -53,11 +54,11 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin: 20px auto;
 }
 
@@ -110,8 +111,8 @@ header .logo svg {
 .home-scr-1 .hero {
   text-align: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: #ffffff;
   position: relative;
   max-width: 994px;
@@ -125,8 +126,8 @@ header .logo svg {
 
 .hOne_services {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -170,16 +171,16 @@ header .logo svg {
 
 .home_five .lg {
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .lg.d-f {
   visibility: visible;
   -webkit-animation-delay: 0.7s;
-          animation-delay: 0.7s;
+  animation-delay: 0.7s;
   -webkit-animation-name: fadeInRight;
-          animation-name: fadeInRight;
+  animation-name: fadeInRight;
 }
 
 .lg.d-f {
@@ -192,17 +193,17 @@ header .logo svg {
   background-size: cover;
   visibility: visible;
   -webkit-animation-name: fadeInLeft;
-          animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
   color: white;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-.cd-section:first-of-type > div {
+.cd-section:first-of-type>div {
   background: url(../../img/hero.jpg) center no-repeat;
   background-size: cover;
 }
@@ -256,24 +257,33 @@ header .logo svg {
 }
 
 @-webkit-keyframes bounce {
-  from, 20%, 40%, 60%, 80%, to {
+
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
     -webkit-animation-timing-function: cubic-bezier(1.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
+
   40% {
     -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, 10px, 0);
     transform: translate3d(0, 10px, 0);
   }
+
   70% {
     -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, 12px, 0);
     transform: translate3d(0, 12px, 0);
   }
+
   90% {
     -webkit-transform: translate3d(0, 5px, 0);
     transform: translate3d(0, 5px, 0);
@@ -281,24 +291,33 @@ header .logo svg {
 }
 
 @keyframes bounce {
-  from, 20%, 40%, 60%, 80%, to {
+
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
     -webkit-animation-timing-function: cubic-bezier(1.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
+
   40% {
     -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, 10px, 0);
     transform: translate3d(0, 10px, 0);
   }
+
   70% {
     -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, 12px, 0);
     transform: translate3d(0, 12px, 0);
   }
+
   90% {
     -webkit-transform: translate3d(0, 5px, 0);
     transform: translate3d(0, 5px, 0);
@@ -317,21 +336,23 @@ header .logo svg {
   -webkit-animation-delay: 5s;
   animation-delay: 1s;
   -webkit-transition-timing-function: ease-in;
-          transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
   -webkit-transition-duration: 10s;
-          transition-duration: 10s;
+  transition-duration: 10s;
   -webkit-animation-iteration-count: 3;
-          animation-iteration-count: 3;
+  animation-iteration-count: 3;
 }
 
 @media screen and (min-width: 1024px) {
   .home-scr-1 .hero {
     margin: 120px auto;
   }
+
   .home-scr-1 h1:before {
     width: 84%;
     top: 147px;
   }
+
   .hOne_services {
     margin-top: 50px;
   }
@@ -358,8 +379,8 @@ header .logo svg {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .w75.d-f.jc-sb.fw-w {
@@ -387,7 +408,7 @@ header .logo svg {
 
 .animated.d-5 {
   -webkit-animation-delay: .5s;
-          animation-delay: .5s;
+  animation-delay: .5s;
 }
 
 .w100.fadeInUp {
@@ -398,8 +419,8 @@ header .logo svg {
 .w75 .fadeInUp {
   text-align: start;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
   width: 400px;
 }
 
@@ -526,8 +547,8 @@ form div {
   display: flex;
   margin-top: 20px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-size: 20px;
 }
 
@@ -576,14 +597,14 @@ form div {
   background-size: cover;
   visibility: visible;
   -webkit-animation-name: fadeInLeft;
-          animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
   color: white;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -604,8 +625,8 @@ form div {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .singleResult .number {
@@ -652,14 +673,14 @@ form div {
   margin-left: auto;
   margin-right: auto;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   /* margin-left: 170px; */
 }
 
 .animated.d-1 {
   -webkit-animation-delay: .1s;
-          animation-delay: .1s;
+  animation-delay: .1s;
 }
 
 .singleAccord .d-f {
@@ -693,7 +714,7 @@ form div {
   top: 0;
   right: 0;
   -webkit-transform: translateX(-1000%);
-          transform: translateX(-1000%);
+  transform: translateX(-1000%);
   padding-right: 15px;
   padding-left: 50px;
   height: 500px;
@@ -705,7 +726,7 @@ form div {
 
 .showMenu {
   -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
 }
 
 .item p {
@@ -725,11 +746,11 @@ form div {
   /* height: 100vh; */
   text-align: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: #fff;
 }
 
@@ -754,8 +775,8 @@ h1.fadeInUp {
   max-width: 1200px;
   /* width: 100%; */
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .section-4__svg {
@@ -769,17 +790,17 @@ h1.fadeInUp {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 3px;
   width: 380px;
   height: 150px;
   color: #fff;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-size: 15px;
   padding: 30px;
 }
@@ -829,13 +850,16 @@ h1.fadeInUp {
     height: auto;
     width: auto;
   }
+
   .singleResult {
     display: block;
     text-align: center;
   }
+
   .hThree_title h2 {
     padding: 0;
   }
+
   .singleResult .number {
     font-size: 45px;
     line-height: 76px;
@@ -857,8 +881,8 @@ h1.fadeInUp {
 
 .home_four__container {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .hFour_items {
@@ -867,7 +891,7 @@ h1.fadeInUp {
   display: flex;
   width: 1200px;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   color: #fff;
   margin: 150px auto;
 }
@@ -890,11 +914,11 @@ h1.fadeInUp {
   width: 340px;
   margin-right: 90px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .hFour_singleItem.d-3 {
@@ -926,7 +950,7 @@ h1.fadeInUp {
   margin: 0 auto;
   max-width: 300px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .lg {
@@ -936,14 +960,14 @@ h1.fadeInUp {
   background-size: cover;
   visibility: visible;
   -webkit-animation-name: fadeInLeft;
-          animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
   color: white;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .slider__3 .hThree_title {
@@ -963,7 +987,7 @@ h1.fadeInUp {
   width: 700px;
   height: 650px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .gallery-hero .gallery__item {
@@ -1029,17 +1053,17 @@ h1.fadeInUp {
   z-index: 10;
   padding: 30px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
   height: 650px;
   -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
   -webkit-overflow-scrolling: touch;
   overflow-y: scroll;
   background-color: transparent;
   background-color: rgba(0, 0, 0, 0.5);
   -webkit-backdrop-filter: blur(8px);
-          backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -1092,12 +1116,12 @@ h1.fadeInUp {
   background: #B88E3B;
 }
 
-.gallery-hero input[name="select"]:checked + .item-hugger {
+.gallery-hero input[name="select"]:checked+.item-hugger {
   height: 60px;
   margin: 0;
 }
 
-.gallery-hero input[name="select"]:checked ~ .content {
+.gallery-hero input[name="select"]:checked~.content {
   opacity: 1;
 }
 
@@ -1105,19 +1129,20 @@ h1.fadeInUp {
   width: 1272px;
   height: 466px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .content__image {
   height: 466px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1438px) {
   .gallery-hero {
     width: 1000px;
   }
+
   .gallery-hero .content {
     top: 0px;
     right: 0px;
@@ -1131,20 +1156,23 @@ h1.fadeInUp {
     left: 0;
     opacity: 0;
   }
+
   .gallery-hero .content img {
     width: 300px;
     height: 500px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     -o-object-position: 80%;
-       object-position: 80%;
+    object-position: 80%;
   }
+
   .gallery-hero .content .content__info {
     position: absolute;
     top: 0;
     left: 0;
     width: 280px;
   }
+
   .gallery-hero .content .gallery-title {
     font-size: 20px;
     line-height: 20px;
@@ -1154,6 +1182,7 @@ h1.fadeInUp {
     margin-left: 10px;
     text-shadow: var(--primary-text-color) 5px 0 10px;
   }
+
   .gallery-hero .content .gallery-subtitle {
     font-size: 16px;
     line-height: 16px;
@@ -1167,26 +1196,30 @@ h1.fadeInUp {
   .gallery__item:nth-child(2n + 1) {
     margin-left: 35px;
   }
+
   .gallery-hero .content {
     position: absolute;
     top: 200px;
     left: 0;
     opacity: 0;
   }
+
   .gallery-hero .content img {
     width: 710px;
     height: 466px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     -o-object-position: 80%;
-       object-position: 80%;
+    object-position: 80%;
   }
+
   .gallery-hero .content .content__info {
     position: absolute;
     top: 0;
     left: 0;
     width: 280px;
   }
+
   .gallery-hero .content .gallery-title {
     font-size: 25px;
     line-height: 25px;
@@ -1196,6 +1229,7 @@ h1.fadeInUp {
     margin-left: 10px;
     text-shadow: var(--primary-text-color) 5px 0 10px;
   }
+
   .gallery-hero .content .gallery-subtitle {
     font-size: 20px;
     line-height: 20px;
@@ -1209,6 +1243,7 @@ h1.fadeInUp {
   .white-box {
     height: 465px;
   }
+
   .thumb-image {
     height: 60px;
   }
@@ -1236,7 +1271,7 @@ h1.fadeInUp {
   display: inline-block;
   max-width: 397px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding-left: 46px;
   min-height: 136px;
   margin-bottom: 80px;
@@ -1255,4 +1290,5 @@ h1.fadeInUp {
   --accent-color: #B88E3B;
   --gray-color: #e7e7e7;
 }
+
 /*# sourceMappingURL=main.css.map */
