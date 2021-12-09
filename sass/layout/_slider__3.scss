@@ -46,14 +46,12 @@
         }
         
         .gallery__item {
-        //   display: inline-block;
         vertical-align: middle;
-    
         margin-right: 34px;
     
-        &:last-child{
-            margin-right: 0px;
-        }
+          &:last-child{
+              margin-right: 0px;
+          }
     
         }
         
@@ -61,21 +59,27 @@
         display: none;
         }
     
-    .item-hugger {
-        display: flex;
-        position: relative;
-        height: 60px;
-        margin: 20px 0;
-        transition: all 150ms ease-in-out;
-    }
     
-    label {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        cursor: pointer;
+        .item-hugger {
+          display: flex;
+          position: relative;
+          height: 80px;
+          margin: 10px 0;
+          transition: all 150ms ease-in-out;
+      }
+      
+      label {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          cursor: pointer;
+          height: 100%;
+      }
+
+    .gallery__item:first-child .item-hugger{
+      height: 50px;
     }
     
     .item-hugger__title {
@@ -98,7 +102,7 @@
         right: 0px;
         opacity: 0;
         width: 700px;
-        height: 500px;
+        // height: 500px;
         -webkit-box-shadow: 8px 11px 27px -9px rgba(0, 0, 0, 1);
         -moz-box-shadow: 8px 11px 27px -9px rgba(0, 0, 0, 1);
         box-shadow: 8px 11px 27px -9px rgba(0, 0, 0, 1);
@@ -106,7 +110,7 @@
         .content__info{
         position: absolute;
         top: 0;
-        left: 0;
+        right: 0;
         z-index: 10;
         padding: 30px;
         box-sizing: border-box;
@@ -203,96 +207,158 @@
     object-fit: cover;
   }
 
-  @media screen and (min-width: 1024px) and (max-width: 1438px) {
+  @media screen and (min-width: 1024px) and (max-width: 1339px) {
+    .slider__3 {
+      height: 76vh;
+      & .lg {
+        min-height: 1000px
+      }
+    }
+    
     .gallery-hero {
-        width: 1000px;
+        width: 900px;
     }
     .gallery-hero .content {
     top: 0px;
     right: 0px;
+  }
+  .gallery-hero .content .content__info {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    padding: 30px;
+    width: 400px;
+    height: 650px;
+} 
+.gallery-hero .item-hugger__title{
+  font-size: 22px;
+
+}
+
+.gallery-hero .content .gallery-title {
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 25px;
+}
+.gallery-hero .content .gallery-subtitle{
+  font-size: 16px;
+  & h3{
+    font-size: 18px;
+  }
 }
 }
   
   @media screen and (max-width: 768px) and (max-width: 1023px) {
-    .gallery-hero .content {
-      position: absolute;
-      top: 360px;
-      left: 0;
-      opacity: 0;
-      & img{
-        width: 300px;
-        height: 500px;
-        object-fit: cover;
-        object-position: 80%;
+    .slider__3 {
+      height: 76vh;
+      & .lg {
+        min-height: 1000px
       }
     }
-   
-    .gallery-hero .content .content__info {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 280px;
-    }
-  
-    .gallery-hero .content .gallery-title {
-      font-size: 18px;
-      line-height: 15px;
-      color: #FFFFFF;
-      margin-top: 200px;
-      margin-bottom: 50px;
-      margin-left: 10px;
-      text-shadow: var(--primary-text-color) 5px 0 10px;
-    }
-  
-    .gallery-hero .content .gallery-subtitle {
-      font-size: 16px;
-      line-height: 16px;
-      color: #FFFFFF;
-      margin-left: 10px;
-      
-      text-shadow: var(--primary-text-color) 5px 0 10px;
-    }
+    .slider__3 .hThree_title {
+      padding-top: 100px;
+      margin-bottom: 150px;
   }
+    .gallery-hero {
+        width: 700px;
+    }
+    .gallery-hero .content {
+    top: 0px;
+    right: 0px;
+  }
+  .gallery-hero .item-hugger {
+    height: 50px;
+        margin: 10px 0;
+    }
+    .gallery-hero input[name="select"]:checked+.item-hugger {
+      height: 30px;
+      margin: 0;
+    }
+      .gallery-hero .content .content__info {
+        position: absolute;
+        top: 0;
+        right: 0px;
+        padding: 30px;
+        width: 350px;
+        height: 450px;
+    } 
+    .gallery-hero .item-hugger__title{
+      font-size: 15px;
+      width: 300px;
+
+    }
+
+    .gallery-hero .content .gallery-title {
+      margin-bottom: 30px;
+      font-size: 18px;
+      line-height: 25px;
+    }
+    .gallery-hero .content .gallery-subtitle{
+      font-size: 14px;
+      & h3{
+        font-size: 16px;
+      }
+    }
+}
   
   
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    .contacts{
-        max-width: 280px;
-    
+  .slider__3 {
+    height: 76vh;
+    & .lg {
+      min-height: 1100px
     }
-    .contacts.d-f.jc-sb { 
-        display: block;
-        flex-direction: row-reverse;
-        justify-content: center;
-    }
+  }
+  .slider__3 .hThree_title {
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+.container__gallery-hero{
+  display: block;
+}
+  .gallery-hero {
+      width: 280px;
+  }
+  .gallery-hero .content {
+  top: 0px;
+  right: 0px;
+}
+.gallery-hero .item-hugger {
+  height: 50px;
+      margin: 20px 0;
+  }
+  .gallery-hero input[name="select"]:checked+.item-hugger {
+    height: 30px;
+    margin: 0;
+  }
+    .gallery-hero .content .content__info {
+      position: absolute;
+      top: 500px;
+      right: 0px;
+      padding: 30px;
+      width: 280px;
+      height: 400px;
+  
+  } 
+  .gallery-hero .item-hugger__title{
+    font-size: 14px;
+    width: 280px;
 
-    .title.fadeInUp h2 {
-        margin: 0;
-        text-align: center;
-    }
-    .mapGoogle.active iframe {
-        width: 280px;
-        height: 360px;
-        margin-top: 0;
-    }
-    .singlePostForm {
-        width: 240px;
-        height: 520px;
-        padding: 22px;
-        margin: 0px;
-    }
+  }
 
-    .w75{
-        display: flex;
-        flex-flow: column wrap;
+  .gallery-hero .content .gallery-title {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .gallery-hero .content .gallery-subtitle{
+    font-size: 14px;
+    & h3{
+      font-size: 16px;
     }
-    .w50{
-        margin: 50px 0;
-        order: 2;
-    }
-
-    .w25{
-        order: 1;
-    }
+  }
+  .gallery-hero .gallery__item {
+     margin-right: 0px;
+}
 }

@@ -4,13 +4,9 @@ body{
     line-height: 1.5;
     // text-shadow: 3px 5px 2px #474747;
     -webkit-text-size-adjust: 100%;
-    background: url(../../mango/hero.webp) center no-repeat;
-    background: linear-gradient(to bottom, rgb(10, 10, 10), rgb(2, 26, 53));
+    background: linear-gradient(to bottom, rgb(10, 10, 10), rgb(2, 26, 53))  url(./../img/hero.webp) center no-repeat;
 }
-.bascground {
-//  background: linear-gradient(to bottom, rgba(120, 107, 175, 1), rgba(40, 140, 255, 1));
-background: linear-gradient(to bottom, rgb(10, 10, 10), rgb(2, 26, 53));
-}
+
 
 a {
     color: #fff;

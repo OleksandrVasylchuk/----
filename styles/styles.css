@@ -329,9 +329,7 @@ header.no-bg {
     margin: 0;
     margin-top: 14px;
 }
-.home-scr-3 .container {
-    
-}
+
 .home-scr-3 h2,
 .home-scr-4 h2{
     font-weight: 300;
@@ -900,9 +898,7 @@ span.icon-mouse {
 
     
 
-    .cd-section .container {
-        padding: 12rem 0
-    }
+    
 
     .home-scr-1 h1 {
         position: static;
@@ -1020,9 +1016,6 @@ span.icon-mouse {
         opacity: 1
     }
 
-    .cd-section, .cd-section .container, .cd-section > div {
-        height: auto
-    }
 
 
 
