@@ -172,10 +172,7 @@ Main Components
     }
 }
 
-.cd-section,
-.cd-section .container {
-    height: 100vh;
-}
+
 
 .cd-section:first-of-type > div {
     background: url(mango.jpg) center no-repeat #fefefe;

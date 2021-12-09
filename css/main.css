@@ -638,10 +638,10 @@ h1.fadeInUp {
 }
 
 .home-scr-3 .container {
-  background-image: url(../../img/slider__3jpg.webp);
+  background-image: url(./../img/slider__3jpg.webp);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .container__gallery-hero {
@@ -873,52 +873,40 @@ h1.fadeInUp {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .gallery__item:nth-child(2n + 1) {
-    margin-left: 35px;
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .contacts {
+    max-width: 280px;
   }
-  .gallery-hero .content {
-    position: absolute;
-    top: 200px;
-    left: 0;
-    opacity: 0;
+  .contacts.d-f.jc-sb {
+    display: block;
+    flex-direction: row-reverse;
+    justify-content: center;
   }
-  .gallery-hero .content img {
-    width: 710px;
-    height: 466px;
-    object-fit: cover;
-    object-position: 80%;
+  .title.fadeInUp h2 {
+    margin: 0;
+    text-align: center;
   }
-  .gallery-hero .content .content__info {
-    position: absolute;
-    top: 0;
-    left: 0;
+  .mapGoogle.active iframe {
     width: 280px;
+    height: 360px;
+    margin-top: 0;
   }
-  .gallery-hero .content .gallery-title {
-    font-size: 25px;
-    line-height: 25px;
-    color: #FFFFFF;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    margin-left: 10px;
-    text-shadow: var(--primary-text-color) 5px 0 10px;
+  .singlePostForm {
+    width: 240px;
+    height: 520px;
+    padding: 22px;
+    margin: 0px;
   }
-  .gallery-hero .content .gallery-subtitle {
-    font-size: 20px;
-    line-height: 20px;
-    color: #FFFFFF;
-    margin-left: 10px;
-    text-shadow: var(--primary-text-color) 5px 0 10px;
+  .w75 {
+    display: flex;
+    flex-flow: column wrap;
   }
-}
-
-@media screen and (min-width: 1440px) {
-  .white-box {
-    height: 465px;
+  .w50 {
+    margin: 50px 0;
+    order: 2;
   }
-  .thumb-image {
-    height: 60px;
+  .w25 {
+    order: 1;
   }
 }
 
@@ -1019,7 +1007,7 @@ h1.fadeInUp {
 
 .footer .container {
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(./../img/girl.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0)), url(./../img/girl.webp);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1115,15 +1103,17 @@ h1.fadeInUp {
   padding: 22px;
   margin-left: 26px;
   text-align: center;
-  background-color: #fff;
-  color: black;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  color: white;
 }
 
 .singlePostForm .title {
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
@@ -1141,7 +1131,7 @@ h1.fadeInUp {
   margin-bottom: 20px;
   outline: none;
   border-radius: 0;
-  color: #030303;
+  color: white;
 }
 
 .blockSubmit .wpcf7-form-control:hover,
@@ -1162,7 +1152,7 @@ h1.fadeInUp {
   width: 240px;
   padding: 10px 0;
   margin: 0 0 38px;
-  color: #050505;
+  color: #fffdfd;
   border: none;
   border-bottom: 1px solid #020202;
   resize: vertical;
@@ -1178,7 +1168,7 @@ form div {
 
 .fadeInUp a {
   text-decoration: none;
-  color: #050505;
+  color: #fdf9f9;
 }
 
 .description__fadeInUp {
@@ -1190,7 +1180,7 @@ form div {
 .fadeInUp__svg {
   width: 17px;
   height: 17px;
-  fill: black;
+  fill: white;
   margin-right: 20px;
 }
 
@@ -1205,7 +1195,7 @@ form div {
   width: 20px;
   height: 20px;
   margin-top: 5px;
-  fill: black;
+  fill: white;
 }
 
 .fadeInUp__svg:hover,

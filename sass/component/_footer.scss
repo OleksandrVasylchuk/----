@@ -1,6 +1,6 @@
 .footer .container {
     background-size: cover;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0)),
     url(./../img/girl.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -101,15 +101,17 @@ text-align: center;
     padding: 22px;
     margin-left: 26px;
     text-align: center;
-    background-color: #fff;
-    color: rgb(0, 0, 0);
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    color: rgb(255, 255, 255);
 }
 
 .singlePostForm .title {
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: bold;
 
 }
@@ -126,7 +128,7 @@ text-align: center;
     margin-bottom: 20px;
     outline: none;
     border-radius: 0;
-    color: rgb(3, 3, 3);
+    color: rgb(255, 255, 255);
     
 }
 .blockSubmit .wpcf7-form-control:hover,
@@ -149,7 +151,7 @@ text-align: center;
     width: 240px;
     padding: 10px 0;
     margin: 0 0 38px;
-    color: rgb(5, 5, 5);
+    color: rgb(255, 253, 253);
     border: none;
     border-bottom: 1px solid rgb(2, 2, 2);
     resize: vertical;
@@ -163,7 +165,7 @@ form div{
 }
 .fadeInUp a {
     text-decoration: none;
-    color: rgb(5, 5, 5);
+    color: rgb(253, 249, 249);
 }
 .description__fadeInUp {
     display: flex;
@@ -174,7 +176,7 @@ form div{
     width: 17px;
     height: 17px;
    
-    fill: rgb(0, 0, 0);
+    fill: rgb(255, 255, 255);
     margin-right: 20px;
 }
 .placeholder .fadeInUp__svg{
@@ -188,7 +190,7 @@ form div{
     width: 20px;
     height: 20px;
     margin-top: 5px;
-    fill: rgb(0, 0, 0);
+    fill: rgb(255, 255, 255);
 }
 
 .fadeInUp__svg:hover, 
