@@ -1132,9 +1132,7 @@ span.icon-mouse {
     .home-scr-1 h1:before {
         top: 140px;
     }
-    .home-scr-3 h2, .home-scr-4 h2 {
-        font-size: 8rem;
-    }
+    
     a.center {
         position: static;
         margin: 10px 0 30px;
@@ -1212,9 +1210,6 @@ span.icon-mouse {
         height: 2px;
     }
 
-    .home-scr-3 h2, .home-scr-4 h2 {
-        font-size: 4rem;
-    }
     .for-h {
         height: auto;
         line-height: normal;
