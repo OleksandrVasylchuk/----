@@ -31,12 +31,16 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px auto;
+  margin: 30px auto 0 auto;
 }
 
 nav ul {
   display: flex;
   margin-left: 135px;
+}
+
+.cd-section .container {
+  height: 100vh;
 }
 
 .nav__list {
@@ -148,7 +152,7 @@ header .logo svg {
   min-height: 600px;
   max-width: 1280px;
   margin: auto;
-  background-image: url(./../img/home-sect-1.jpg);
+  background-image: linear-gradient(to bottom, rgba(18, 18, 19, 0.22), rgba(0, 0, 0, 0.33)), url(./../img/slidrer__2.jpg);
   background-position: center;
   background-size: cover;
   visibility: visible;
@@ -254,7 +258,16 @@ header .logo svg {
   animation-iteration-count: 3;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1439px) {
+  .icon-mouse {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  nav {
+    margin: 40px auto 0 auto;
+  }
   .home-scr-1 .hero {
     margin: 120px auto;
   }
@@ -264,6 +277,71 @@ header .logo svg {
   }
   .hOne_services {
     margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  nav {
+    margin: 40px auto;
+  }
+  .home-scr-1 .hero {
+    margin: 200px auto;
+  }
+  .home-scr-1 h1:before {
+    width: 84%;
+    top: 160px;
+  }
+  .hero h1 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 7.5rem;
+  }
+  .hOne_services {
+    margin-top: 50px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  nav {
+    margin: 40px auto;
+  }
+  nav ul {
+    display: block;
+    margin: 0;
+  }
+  .home-scr-1 .hero {
+    margin: 300px auto;
+  }
+  header .logo svg {
+    top: 25px;
+  }
+  .localizations {
+    top: -20px;
+    right: 120px;
+  }
+  .home-scr-1 h1:before {
+    width: 90%;
+    top: 105px;
+  }
+  .hero h1 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+  .hOne_services {
+    display: block;
+    margin-top: 50px;
+    font-size: 16px;
+    width: 200px;
+    margin: 100px auto;
+  }
+  .hOne_services .fadeInUp {
+    display: flex;
+    margin-top: 20px;
+  }
+  .hOne_services span {
+    display: block;
   }
 }
 
@@ -604,6 +682,8 @@ h1.fadeInUp {
   top: 0px;
   right: 0px;
   opacity: 0;
+  width: 700px;
+  height: 500px;
   -webkit-box-shadow: 8px 11px 27px -9px black;
   -moz-box-shadow: 8px 11px 27px -9px black;
   box-shadow: 8px 11px 27px -9px black;
@@ -706,7 +786,7 @@ h1.fadeInUp {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) and (max-width: 1023px) {
   .gallery-hero .content {
     position: absolute;
     top: 360px;
@@ -726,8 +806,8 @@ h1.fadeInUp {
     width: 280px;
   }
   .gallery-hero .content .gallery-title {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 15px;
     color: #FFFFFF;
     margin-top: 200px;
     margin-bottom: 50px;

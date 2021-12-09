@@ -92,6 +92,8 @@
   top: 0px;
   right: 0px;
   opacity: 0;
+  width: 700px;
+  height: 500px;
   -webkit-box-shadow: 8px 11px 27px -9px black;
   -moz-box-shadow: 8px 11px 27px -9px black;
   box-shadow: 8px 11px 27px -9px black;
@@ -194,7 +196,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) and (max-width: 1023px) {
   .gallery-hero .content {
     position: absolute;
     top: 360px;
@@ -214,8 +216,8 @@
     width: 280px;
   }
   .gallery-hero .content .gallery-title {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 15px;
     color: #FFFFFF;
     margin-top: 200px;
     margin-bottom: 50px;
