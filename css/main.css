@@ -3,7 +3,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
-  background: linear-gradient(to bottom, #0a0a0a, #021a35) url(./../img/hero.webp) center no-repeat;
+  background: url(./../img/hero.webp) center no-repeat;
 }
 
 a {
