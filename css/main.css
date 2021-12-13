@@ -1,4 +1,9 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Open Sans', 'Gotham Pro', sans-serif;
   font-weight: 400;
@@ -436,9 +441,9 @@ header .logo svg {
 }
 
 .home_five .lg .description {
-  margin-top: 200px;
+  margin-top: 100px;
   width: 600px;
-  height: 100%;
+  height: 90%;
   background-color: transparent;
 }
 
@@ -678,6 +683,11 @@ h1.fadeInUp {
   margin-right: auto;
 }
 
+.gallery-hero:hover,
+.gallery-hero :focus {
+  color: #d49517;
+}
+
 .gallery-hero .content img {
   width: 700px;
   height: 650px;
@@ -713,6 +723,11 @@ h1.fadeInUp {
   bottom: 0;
   cursor: pointer;
   height: 100%;
+  color: #ffffff;
+}
+
+.gallery-hero label:hover, .gallery-hero label:active {
+  color: #d49517;
 }
 
 .gallery-hero .gallery__item:first-child .item-hugger {
@@ -730,6 +745,10 @@ h1.fadeInUp {
   margin: 5px;
   list-style: circle;
   background-size: 20px;
+}
+
+.gallery-hero .item-hugger__title:hover, .gallery-hero .item-hugger__title:focus {
+  color: #d49517;
 }
 
 .gallery-hero .content {
@@ -751,7 +770,7 @@ h1.fadeInUp {
   padding: 30px;
   box-sizing: border-box;
   width: 100%;
-  height: 650px;
+  height: 600px;
   scroll-snap-type: y mandatory;
   -webkit-overflow-scrolling: touch;
   overflow-y: scroll;
@@ -978,7 +997,7 @@ h1.fadeInUp {
 
 .slider__4 .container {
   background-size: cover;
-  background-image: url(./../img/slider__4.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(./../img/slider__4.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-position: center;
@@ -1017,7 +1036,7 @@ h1.fadeInUp {
 
 .services {
   display: flex;
-  margin: 20vh auto;
+  margin: 10vh auto;
   max-width: 1200px;
   /* width: 100%; */
   justify-content: center;
@@ -1293,7 +1312,7 @@ h1.fadeInUp {
 
 .footer .container {
   background-size: cover;
-  background-image: url(./../img/girl.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url(./../img/girl.webp);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1401,7 +1420,7 @@ h1.fadeInUp {
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
-  color: white;
+  color: #f5f1f1;
   font-weight: bold;
 }
 
@@ -1412,8 +1431,9 @@ h1.fadeInUp {
 }
 
 .singlePostForm .form input {
+  box-sizing: border-box;
   width: 240px;
-  padding: 10px 0;
+  padding: 10px 10px;
   border: none;
   border-bottom: 1px solid black;
   margin-bottom: 20px;
@@ -1436,11 +1456,12 @@ h1.fadeInUp {
 }
 
 .singlePostForm .form .wpcf7-form textarea {
+  box-sizing: border-box;
   height: 50px;
   width: 240px;
-  padding: 10px 0;
+  padding: 10px 10px;
   margin: 0 0 38px;
-  color: #fffdfd;
+  color: #030303;
   border: none;
   border-bottom: 1px solid #020202;
   resize: vertical;

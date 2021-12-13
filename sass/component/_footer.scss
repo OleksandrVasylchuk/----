@@ -1,6 +1,6 @@
 .footer .container {
     background-size: cover;
-    background-image:
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0)),
     url(./../img/girl.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -8,7 +8,6 @@
 .contacts{
     width: 100%;
     display: fle-end;
-    
     justify-content: end;
     max-width: 1250px;
     margin: auto;
@@ -114,7 +113,7 @@ text-align: center;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    color: rgb(255, 255, 255);
+    color: rgb(245, 241, 241);
     font-weight: bold;
 
 }
@@ -124,8 +123,9 @@ text-align: center;
     line-height: 14px;
 }
 .singlePostForm .form input {
+    box-sizing: border-box;
     width: 240px;
-    padding: 10px 0;
+    padding: 10px 10px;
     border: none;
     border-bottom: 1px solid rgb(0, 0, 0);
     margin-bottom: 20px;
@@ -150,11 +150,12 @@ text-align: center;
     margin: 20px 0;
 }
 .singlePostForm .form .wpcf7-form textarea {
+    box-sizing: border-box;
     height: 50px;
     width: 240px;
-    padding: 10px 0;
+    padding: 10px 10px;
     margin: 0 0 38px;
-    color: rgb(255, 253, 253);
+    color: rgb(3, 3, 3);
     border: none;
     border-bottom: 1px solid rgb(2, 2, 2);
     resize: vertical;

@@ -170,45 +170,10 @@ Main Components
 }
 
 
-
-.cd-section:first-of-type > div {
-    background: url(mango.jpg) center no-repeat #fefefe;
-    background-size: cover;
-}
-
-.cd-section:first-of-type > div::before {
-    /* alert -> all scrolling effects are not visible on small devices */
-    /*content: 'Effects not visible on mobile!';*/
-    display: none;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    top: 20px;
-    z-index: 2;
-    font-weight: bold;
-    font-size: 1.3rem;
-    text-transform: uppercase;
-    color: #6a7083;
-}
-
-
-
-header ul, section:first-child {
-    /* display: none */
-}
-
 .home-scr-1 h1, .left-picture {
     -webkit-transform: translateY(-50%)
 }
 
-* {
-    margin: 0;
-    padding: 0
-}
-
-html {
-    font-size: 10px
-}
 
 body, html {
     min-height: 100%;

@@ -39,6 +39,10 @@
     margin-left: auto;
     margin-right: auto;
     
+    &:hover, 
+    :focus {
+        color: #d49517;
+    }
         & .content img {
         width: 700px;
         height: 650px;
@@ -76,6 +80,11 @@
           bottom: 0;
           cursor: pointer;
           height: 100%;
+          color: #ffffff;
+          &:hover,
+          &:active{
+            color: #d49517;
+          }
       }
 
     .gallery__item:first-child .item-hugger{
@@ -94,6 +103,10 @@
         margin: 5px;
         list-style: circle;
         background-size: 20px;
+        &:hover,
+        &:focus{
+          color: #d49517;
+        }
     }
     
     .content {
@@ -115,7 +128,7 @@
         padding: 30px;
         box-sizing: border-box;
         width: 100%;
-        height: 650px;
+        height: 600px;
         scroll-snap-type: y mandatory;
         -webkit-overflow-scrolling: touch;
         overflow-y: scroll;
