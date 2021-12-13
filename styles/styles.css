@@ -5,10 +5,7 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
-    font-family: "Roboto", sans-serif;
     color: #fff;
-    background-color: #22283f;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -218,13 +215,6 @@ body, html {
     height: 100%
 }
 
-body {
-    /* width: 100%; */
-    /* min-width: 20pc; */
-    /* background: url(mango.jpg) center no-repeat #fefefe; */
-    /* background-size: cover; */
-    /* font-family: "Roboto", sans-serif; */
-}
 .container, header {
     width: 100%;
    /* max-width: 20in*/
