@@ -30,7 +30,7 @@ h2 {
   bottom: 0;
   overflow: hidden;
   /* фоновый цвет */
-  background-image: linear-gradient(15deg, #038824 0%, #075196 100%);
+  background-image: linear-gradient(15deg, #000000 0%, #075196 100%);
   color: #fdfdfd;
   z-index: 10000;
 }
