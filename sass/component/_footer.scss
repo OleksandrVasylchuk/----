@@ -7,6 +7,9 @@
 }
 .contacts{
     width: 100%;
+    display: fle-end;
+    
+    justify-content: end;
     max-width: 1250px;
     margin: auto;
     background-color: transparent;
@@ -204,11 +207,11 @@ form div{
 
 @media screen and (min-width: 1024px) and (max-width: 1439px)  {
     .contacts{
-        max-width: 1000px;
+        max-width: 950px;
     
     }
     .contacts.d-f.jc-sb { 
-        justify-content: center;
+        justify-content: end;
     }
 
     .title.fadeInUp h2 {
