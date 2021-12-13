@@ -4,6 +4,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    padding-top: 1px;
 }
 .home_four__container{
     justify-content: center;
@@ -43,4 +44,116 @@
 }
 .hFour_singleItem {
     margin-bottom: 48px;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1339px) {
+    .section-5 .home_four{
+        margin-top: 350px;
+    }
+    .home_four__container{
+        height: 100%; 
+    }
+    .hFour_items {
+        width: 750px;
+        margin: 100px auto;
+        justify-content: space-between;
+    }
+    .hTwo_title {
+        margin-top: 200px;
+    }
+    
+    .hFour_singleItem{
+        width: 350px;
+        margin-right: 0px;
+    }
+    
+    
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .section-5 .home_four{
+        margin-top: 350px;
+    }
+    .home_four__container{
+        height: 100%; 
+    }
+    .hFour_items {
+        width: 700px;
+        margin: 100px auto;
+    }
+    .section-5__svg{
+        width: 60px;
+        height: 60px;
+        fill: #fff;
+        margin-right: 20px;
+    }
+    .hTwo_title {
+        width: 600px;
+        margin: 100px auto;
+    }
+    
+    .hFour_singleItem{
+        width: 350px;
+        margin-right: 0px;
+    }
+    .hFour_singleItem span {
+        max-width: 200px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .hFour_singleItem {
+        margin-bottom: 48px;
+    }
+    
+}
+  
+  
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .section-5 .home_four{
+        margin-top: 450px;
+        padding-bottom: 450px;
+        box-sizing: content-box;
+    }
+    .home_four__container{
+        height: 1140px; 
+    }
+    .hFour_items {
+        display: block;
+        width: 280px;
+        margin: 100px auto;
+    }
+    .section-5__svg{
+        width: 60px;
+        height: 60px;
+        fill: #fff;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .hTwo_title {
+        width: 280px;
+        margin: 100px auto;
+        & h2{
+            font-size: 18px; 
+        }
+    }
+    
+    .hFour_singleItem{
+        display: block;
+        width: 280px;
+        margin-right: 0px;
+    }
+    .hFour_singleItem span {
+        display: block;
+        text-align: center;
+        max-width: 280px;
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .hFour_singleItem {
+        margin-bottom: 48px;
+    }
+
 }
