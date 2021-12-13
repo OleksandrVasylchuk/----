@@ -1,6 +1,6 @@
 .slider__4 .container {
     background-size: cover;
-    background-image:   url(./../img/slider__4.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0)),   url(./../img/slider__4.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-position: center;
@@ -28,4 +28,130 @@
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
+}
+
+
+.description {
+    text-align: center;
+    font-size: 25px;
+}
+
+ .services {
+     display: flex;
+    margin: 20vh auto;
+    max-width: 1200px;
+    /* width: 100%; */
+    justify-content: center;
+}
+.section-4__svg{
+    width: 150px;
+    height: 60px;
+    fill: #fff;
+}
+
+.singleService {
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 380px;
+    height: 150px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    padding: 30px;
+    
+}
+.singleService.fadeInUp p {
+    text-align: start;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+
+.services {
+    margin: 20px auto;
+    max-width: 900px;
+    /* width: 100%; */
+    justify-content: center;
+}
+
+.singleService {
+    display: block;
+    width: 300px;
+    height: auto;
+    padding: 30px;
+}
+.singleService.fadeInUp p {    
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .services {
+        margin: 50px auto;
+        max-width: 900px;
+        /* width: 100%; */
+        justify-content: center;
+    }
+    .description {
+        font-size: 20px;
+    }
+ 
+    .singleService {
+     display: block;
+     width: 300px;
+     height: auto;
+     padding: 30px;
+ }
+ .singleService.fadeInUp p {    
+     text-align: center;
+     font-size: 18px;
+     line-height: 20px;
+     margin-left: 0px;
+     margin-top: 20px;
+ }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .services {
+        display: block;
+        margin: 50px auto;
+        max-width: 900px;
+        /* width: 100%; */
+        justify-content: center;
+    }
+    .description {
+        font-size: 16px;
+    }
+ 
+    .singleService {
+     display: block;
+     width: 300px;
+     height: auto;
+     padding: 30px;
+ }
+ .singleService.fadeInUp p {    
+     text-align: center;
+     font-size: 14px;
+     line-height: 14px;
+     margin-left: 0px;
+     margin-top: 20px;
+ }
+
+ .section-4__svg {
+    width: 100px;
+    height: 50px;
+    fill: #fff;
+}
 }

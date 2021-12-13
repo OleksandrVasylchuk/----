@@ -137,71 +137,33 @@ h1.fadeInUp {
     text-align: center;
     letter-spacing: 0.05em;
 }
-.description {
-    text-align: center;
-    font-size: 25px;
-}
-
- .services {
-     display: flex;
-    margin: 20vh auto;
-    max-width: 1200px;
-    /* width: 100%; */
-    justify-content: center;
-}
-.section-4__svg{
-    width: 150px;
-    height: 60px;
-    fill: #fff;
-}
-
-.singleService {
-    display: flex;
-    box-sizing: border-box;
-    border-radius: 3px;
-    width: 380px;
-    height: 150px;
-    color: #fff;
-    align-items: center;
-    justify-content: center;
-    font-size: 15px;
-    padding: 30px;
-    
-}
-.singleService.fadeInUp p {
-    text-align: start;
-    font-size: 20px;
-    line-height: 20px;
-    margin-left: 20px;
-    text-shadow: rgb(0, 0, 0) 1px 0 10px;
-}
 .slider__3-item {
     display: flex;
     width: 1300px;
     margin: 0px auto;
- }
- .slider__3-list {
-     height: 250px;
-     width: 200px;
-     margin-left: 20px;
- }
- .slider__3-list:first-child{
-     margin-left: 0;
- }
- 
- 
- .slider__3-img {
-     height: auto;
-     width: 200px;
- }
- .slider__3-text {
-     font-size: 15px;
-     line-height: 20px;
-     text-align: center;
-     padding: 0 3px;
-     color: #fff;
-     background-color: black;
- }
+}
+.slider__3-list {
+    height: 250px;
+    width: 200px;
+    margin-left: 20px;
+}
+.slider__3-list:first-child{
+    margin-left: 0;
+}
+
+
+.slider__3-img {
+    height: auto;
+    width: 200px;
+}
+.slider__3-text {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    padding: 0 3px;
+    color: #fff;
+    background-color: black;
+}
 
  @media screen and (min-width: 1024px) and (max-width: 1439px) {
     .home_five .lg .description {
@@ -246,8 +208,8 @@ h1.fadeInUp {
 
 
 
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-   
     .home_five .lg .description {
         margin-top: 100px;
 
