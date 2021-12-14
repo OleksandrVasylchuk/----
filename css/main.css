@@ -1088,7 +1088,7 @@ h1.fadeInUp {
 
 .services {
   display: flex;
-  margin: 10vh auto;
+  margin: 6vh auto;
   max-width: 1200px;
   /* width: 100%; */
   justify-content: center;
