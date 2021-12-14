@@ -96,11 +96,10 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 430px;
+        width: 550px;
         font-size: 25px;
         color: rgb(252, 252, 252);
         transition: all 150ms linear;
-        margin: 5px;
         list-style: circle;
         background-size: 20px;
         &:hover,
@@ -127,8 +126,8 @@
         z-index: 10;
         padding: 30px;
         box-sizing: border-box;
-        width: 100%;
-        height: 600px;
+        width: 85%;
+        height:600px;
         scroll-snap-type: y mandatory;
         -webkit-overflow-scrolling: touch;
         overflow-y: scroll;
@@ -186,7 +185,7 @@
         background: #B88E3B;
     }
     input[name="select"]:checked + .item-hugger {
-      height: 60px;
+      height: 35px;
       margin: 0;
   
     //   &::before{
@@ -220,6 +219,48 @@
     object-fit: cover;
   }
 
+  @media screen  and (max-height: 780px) and (min-width: 1440px) {
+   
+    .gallery-hero {
+      position: static;
+      height: 430px;
+      width: 50%;
+      margin-right: 610px;
+      scroll-snap-type: y mandatory;
+      -webkit-overflow-scrolling: touch;
+      overflow-y: scroll;
+  }
+    .gallery-hero .content .content__info {
+      position: absolute;
+      top: 190px;
+      right: 100px;
+      z-index: 10;
+      padding: 30px;
+      box-sizing: border-box;
+      width: 85%;
+      height: 430px;
+      scroll-snap-type: y mandatory;
+      -webkit-overflow-scrolling: touch;
+      overflow-y: scroll;
+      background-color: rgba(0,0,0,0.5);
+      backdrop-filter: blur(8px);
+      font-family: 'Open Sans', sans-serif;
+  }
+
+  
+  ::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: rgba(255, 255, 255, 0.25);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #B88E3B;
+}
+  }
+
   @media screen and (min-width: 1024px) and (max-width: 1339px) {
     .slider__3 {
       height: 76vh;
@@ -245,7 +286,7 @@
 } 
 .gallery-hero .item-hugger__title{
   font-size: 22px;
-
+  width: 450px;
 }
 
 .gallery-hero .content .gallery-title {

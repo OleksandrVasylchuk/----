@@ -130,7 +130,7 @@ header .logo svg {
   color: #ffffff;
   position: relative;
   max-width: 994px;
-  margin: 250px auto;
+  margin: 120px auto;
 }
 
 .hero h1 {
@@ -441,8 +441,8 @@ header .logo svg {
 }
 
 .home_five .lg .description {
-  margin-top: 100px;
-  width: 600px;
+  margin-top: 50px;
+  width: 700px;
   height: 90%;
   background-color: transparent;
 }
@@ -738,11 +738,10 @@ h1.fadeInUp {
   position: absolute;
   top: 0;
   left: 0;
-  width: 430px;
+  width: 550px;
   font-size: 25px;
   color: #fcfcfc;
   transition: all 150ms linear;
-  margin: 5px;
   list-style: circle;
   background-size: 20px;
 }
@@ -769,7 +768,7 @@ h1.fadeInUp {
   z-index: 10;
   padding: 30px;
   box-sizing: border-box;
-  width: 100%;
+  width: 85%;
   height: 600px;
   scroll-snap-type: y mandatory;
   -webkit-overflow-scrolling: touch;
@@ -830,7 +829,7 @@ h1.fadeInUp {
 }
 
 .gallery-hero input[name="select"]:checked + .item-hugger {
-  height: 60px;
+  height: 35px;
   margin: 0;
 }
 
@@ -847,6 +846,43 @@ h1.fadeInUp {
 .content__image {
   height: 466px;
   object-fit: cover;
+}
+
+@media screen and (max-height: 780px) and (min-width: 1440px) {
+  .gallery-hero {
+    position: static;
+    height: 430px;
+    width: 50%;
+    margin-right: 610px;
+    scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+  }
+  .gallery-hero .content .content__info {
+    position: absolute;
+    top: 190px;
+    right: 100px;
+    z-index: 10;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 85%;
+    height: 430px;
+    scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    font-family: 'Open Sans', sans-serif;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.25);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #B88E3B;
+  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1339px) {
@@ -873,6 +909,7 @@ h1.fadeInUp {
   }
   .gallery-hero .item-hugger__title {
     font-size: 22px;
+    width: 450px;
   }
   .gallery-hero .content .gallery-title {
     margin-bottom: 30px;
@@ -1176,7 +1213,7 @@ h1.fadeInUp {
 }
 
 .hTwo_title {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .hFour_singleItem {
@@ -1204,7 +1241,7 @@ h1.fadeInUp {
 
 @media screen and (min-width: 1024px) and (max-width: 1339px) {
   .section-5 .home_four {
-    margin-top: 350px;
+    margin-top: 500px;
   }
   .home_four__container {
     height: 100%;
@@ -1215,7 +1252,7 @@ h1.fadeInUp {
     justify-content: space-between;
   }
   .hTwo_title {
-    margin-top: 200px;
+    margin-top: 100px;
   }
   .hFour_singleItem {
     width: 350px;
@@ -1242,7 +1279,7 @@ h1.fadeInUp {
   }
   .hTwo_title {
     width: 600px;
-    margin: 100px auto;
+    margin: 50px auto;
   }
   .hFour_singleItem {
     width: 350px;
@@ -1331,7 +1368,6 @@ h1.fadeInUp {
 }
 
 .contacts.d-f.jc-sb {
-  margin-top: 50px;
   display: flex;
   justify-content: flex-end;
 }
@@ -1405,7 +1441,7 @@ h1.fadeInUp {
 
 .singlePostForm {
   width: 240px;
-  height: 520px;
+  height: 470px;
   border-radius: 3px;
   padding: 22px;
   margin-left: 26px;
