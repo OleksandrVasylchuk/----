@@ -313,16 +313,7 @@ a.center {
 a.center.c1 {
     bottom: 20px;
 }
-a.center.c1:before {
-    content: "";
-    position: relative;
-    display: inline-block;
-    width: 24px;
-    height: 18px;
-    background: url("mangosp.svg");
-    background-position: -1132px -95px;
-    margin-right: 8px;
-}
+
 
 .home-scr-4 .container .list {
     max-width: 1200px;
@@ -402,18 +393,12 @@ a.center.c1:before {
     text-decoration: none;
     padding: 8px 20px 4px;
     display: inline-block;
-    transition: background .3s ease, color .3s ease;
     opacity: 0
 }
 
 .right-text-block span.link:hover {
     cursor: pointer;
     color: #fff
-}
-
-.home-scr-3 > div {
-    background: url(../bundles/roliqueapp/images/radial_gradient.png) center bottom no-repeat;
-    background-size: cover
 }
 
 .circles-wrapper {
@@ -442,7 +427,6 @@ a.center.c1:before {
     width: 208px;
     height: 208px;
     border-radius: 150px;
-    border: 105px solid rgba(255, 255, 255, .24);
     margin: 0 auto 2.2rem;
     position: relative;
     top: 0
@@ -482,16 +466,6 @@ a.center.c1:before {
     
     font-weight: normal;
 }
-span[class^="icon-"] {
-    background: url("mangosp.svg");
-    width: 208px;
-    height: 208px;
-    position: absolute !important;
-    margin: 0;
-    padding: 0;
-    top: -104px;
-    left: -104px
-}
 span.icon-2 {
     background-position: -208px 0;
 }
@@ -505,9 +479,6 @@ span.icon-4 {
     left: 50%
 }
 
-.circles-wrapper .circle-block-data .icon {
-    background: url(../bundles/roliqueapp/images/icon_data.png) center no-repeat
-}
 
 .home-scr-4 .block-center {
     position: absolute;
@@ -520,12 +491,7 @@ span.icon-4 {
     opacity: 0
 }
 
-.home-scr-4 .block-center h2 {
-    color: #2b93d1;
-    margin-bottom: 1rem;
-    background: url(../bundles/roliqueapp/images/icon_comm.png) top center no-repeat;
-    padding-top: 78px
-}
+
 
 .home-scr-4 .block-center p {
     
@@ -630,78 +596,7 @@ span.icon-mouse {
     margin: auto;
     max-height: 800px;
 }
-@-webkit-keyframes bounce {
-    from, 20%, 40%,60%, 80%, to {
-        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-        -webkit-transform: translate3d(0,0,0);
-        transform: translate3d(0,0,0);
-    }
 
-    40% {
-        -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-        -webkit-transform: translate3d(0, 30px, 0);
-        transform: translate3d(0, 30px, 0);
-    }
-
-    70% {
-        -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-        -webkit-transform: translate3d(0, 15px, 0);
-        transform: translate3d(0, 15px, 0);
-    }
-
-    90% {
-        -webkit-transform: translate3d(0,0px,0);
-        transform: translate3d(0,0px,0);
-    }
-}
-@keyframes bounce {
-    from, 20%, 40%,60%, 80%, to {
-        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-        -webkit-transform: translate3d(0,0,0);
-        transform: translate3d(0,0,0);
-    }
-
-    40% {
-        -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-        -webkit-transform: translate3d(0, 30px, 0);
-        transform: translate3d(0, 30px, 0);
-    }
-
-    70% {
-        -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-        -webkit-transform: translate3d(0, 15px, 0);
-        transform: translate3d(0, 15px, 0);
-    }
-
-    90% {
-        -webkit-transform: translate3d(0,0px,0);
-        transform: translate3d(0,0px,0);
-    }
-}
-
-.bounce {
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-name: bounce;
-    animation-name: bounce;
-    -webkit-transform-origin: center bottom;
-    transform-origin: center bottom;
-    -webkit-animation-delay: 1s;
-    -moz-animation-delay: 1s;
-    -o-animation-delay: 1s;
-    animation-delay: 1s;
-    transition-timing-function: linear;
-    transition-duration: 5s;
-    animation-iteration-count: 3;
-}
 
 @media (min-width: 1050px) {
     .touchdev .home-scr-1 h1, .left-picture {
