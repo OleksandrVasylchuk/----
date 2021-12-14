@@ -132,7 +132,10 @@ text-align: center;
     outline: none;
     border-radius: 0;
     color: rgb(255, 255, 255);
-    
+}
+
+.blockSubmit input{
+    letter-spacing: 5px;
 }
 .blockSubmit .wpcf7-form-control:hover,
 .blockSubmit .wpcf7-form-control:focus{

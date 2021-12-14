@@ -782,8 +782,9 @@ h1.fadeInUp {
   overflow-y: scroll;
   background-color: transparent;
   background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(8px);
   font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px 1px #000;
+  color: #fcfcfc;
 }
 
 .gallery-hero .content .gallery-title {
@@ -858,7 +859,7 @@ h1.fadeInUp {
 @media screen and (max-height: 780px) and (min-width: 1440px) {
   .gallery-hero {
     position: static;
-    height: 430px;
+    height: 418px;
     width: 50%;
     margin-right: 610px;
     scroll-snap-type: y mandatory;
@@ -878,7 +879,6 @@ h1.fadeInUp {
     -webkit-overflow-scrolling: touch;
     overflow-y: scroll;
     background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(8px);
     font-family: 'Open Sans', sans-serif;
   }
   ::-webkit-scrollbar {
@@ -1491,6 +1491,10 @@ h1.fadeInUp {
   outline: none;
   border-radius: 0;
   color: white;
+}
+
+.blockSubmit input {
+  letter-spacing: 5px;
 }
 
 .blockSubmit .wpcf7-form-control:hover,
