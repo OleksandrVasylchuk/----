@@ -1,9 +1,10 @@
 .slider__4 .container {
     background-size: cover;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(./../img/slider__4.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url(./../img/slider__4.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-position: center;
+    text-shadow: -3px 0px 1px #000;
 }
 
 .home-scr-4 .container .list {

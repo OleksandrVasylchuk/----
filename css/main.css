@@ -12,6 +12,7 @@ body {
   background: url(./../img/hero.webp) center no-repeat;
   text-shadow: -2px 0 #000000, 0 1px #fdfdfd, 1px 0 #000000, 0 -1px #000000;
   color: #ffffff;
+  letter-spacing: 1px;
 }
 
 a {
@@ -1047,10 +1048,11 @@ h1.fadeInUp {
 
 .slider__4 .container {
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url(./../img/slider__4.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url(./../img/slider__4.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-position: center;
+  text-shadow: -3px 0px 1px #000;
 }
 
 .home-scr-4 .container .list {
@@ -1461,24 +1463,23 @@ h1.fadeInUp {
   margin-left: 26px;
   text-align: center;
   background-color: transparent;
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
-  text-shadow: 1px 1px 1px #000;
-  color: #fcfcfc;
+  text-shadow: -3px 0px 1px #000;
 }
 
 .singlePostForm .title {
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
-  color: #f5f1f1;
+  color: white;
   font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .singlePostForm .description {
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 14px;
 }
 
@@ -1509,6 +1510,8 @@ h1.fadeInUp {
 
 .singlePostForm .contacts {
   margin: 20px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 
 .singlePostForm .form .wpcf7-form textarea {
