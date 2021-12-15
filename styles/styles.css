@@ -71,20 +71,7 @@ a {
     display: inline-block;
     font-weight: 900;
 }
-/*a.logo {*/
-    /*position: relative;*/
-/*}*/
-/*a.logo:before {*/
-    /*background: url("logo.png");*/
-    /*display: block;*/
-    /*content: "";*/
-    /*position: absolute;*/
-    /*width: 30px;*/
-    /*height: 40px;*/
-/*}*/
-/*a.logo img {*/
-    /*display: block;*/
-/*}*/
+
 /* --------------------------------
 
 Main Components
@@ -94,10 +81,10 @@ Main Components
     body[data-hijacking="on"]:not(.touchdev) {
         overflow: hidden;
     }
-    body:not(.touchdev) .cd-section h2 {
+    /* body:not(.touchdev) .cd-section h2 {
         font-size: 4rem;
         font-weight: 300;
-    }
+    } */
     [data-hijacking="on"]:not(.touchdev) .cd-section {
         opacity: 1 !important;
         visibility: hidden;
