@@ -250,6 +250,9 @@ h1.fadeInUp {
         margin-right: 0px;
         width: 200px;
     }
+    .hThree_title h2{
+        font-size: 25px;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -263,5 +266,7 @@ h1.fadeInUp {
     .home_five .lg .description p {
         font-size: 15px;
     }
-    
+    .hThree_title h2{
+        font-size: 20px;
+    }
 }
