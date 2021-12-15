@@ -245,58 +245,12 @@ header.no-bg {
     overflow: hidden
 }
 
-.home-scr-1 h1 {
-    font-weight: bold;
-    text-align: center;
-    position: absolute;
-    top: 48%;
-    transform: translateY(-50%);
-    
-    position: relative;
-    max-width: 994px;
-    margin: 0 auto;
-}
-.home-scr-1 h1:before {
-    content: "";
-    position: absolute;
-    display: block;
-    height: 3px;
-    width: 480px;
-    top: 203px;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
 
-.home-scr-1 h1 span {
-    font-size: 36px;
-    display: block;
-    line-height: 6rem;
-    font-weight: 400;
-    text-transform: none;
-    position: relative;
-    margin-top: 103px;
-}
-.home-scr-1 h1 span .font-l {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 28px;
-    margin: 0;
-    margin-top: 14px;
-}
 
-.home-scr-3 h2,
-.home-scr-4 h2{
-    font-weight: 300;
-    text-align: center;
-    
-    margin-bottom: 68px;
-}
-.home-scr-4 h2 {
-    color: #ffffff;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
+
+
+
+
 .home-scr-3 .circles-wrapper {
     max-width: 1313px;
 }
@@ -320,19 +274,7 @@ a.center.c1 {
     margin: 0 auto;
     text-align: center;
 }
-.home-scr-4 .container .list div {
-    text-align: left;
-    width: 32.333%;
-    font-size: 24px;
-    font-weight: 700;
-    display: inline-block;
-    max-width: 397px;
-    box-sizing: border-box;
-    padding-left: 46px;
-    min-height: 136px;
-    margin-bottom: 80px;
-    vertical-align: top;
-}
+
 .home-scr-4 .container .list div p {
     font-size: 14px;
     font-weight: 300;
@@ -498,7 +440,6 @@ span.icon-4 {
 }
 
 .home-scr-4 .form-block {
-    background: #2b93d1;
     color: #fff;
     position: absolute;
     right: -50%;

@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
     margin: auto;
-    background-image: linear-gradient(to bottom, rgba(18, 18, 19, 0.4), rgba(0, 0, 0, .1)), url(./../img/slidrer-2.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5)), url(./../img/slidrer-2.webp);
     background-position: center;
     background-size: cover;
     visibility: visible;
@@ -10,9 +10,10 @@
     color: white;
     align-items: center;
     justify-content: center; 
-  
+    text-shadow: 1px 1px 1px #000;
 
 }
+
 
 .lg.slider__2 {
     margin: auto;
@@ -57,6 +58,7 @@
 .hThree_title h2{
     font-size: 30px;
     color: rgb(247, 243, 243);
+    width: 100%;
 
 }
 
@@ -71,7 +73,7 @@
 .home_five .lg .description p {
     font-size: 20px;
     text-align: start;
-    color: rgb(247, 243, 243);
+    color: #ffffff;
     line-height: 150%;
     margin: 20px;
 }
@@ -125,13 +127,12 @@
 .showMenu {
     transform: translateX(0);
 }
-.item p{
-    width: 400px;
-    height: 400px;
-    background-color: blue;
-    width: 100%;
-    font-size: 16px;
-}
+// .item p{
+//     width: 400px;
+//     height: 400px;
+//     width: 100%;
+//     font-size: 16px;
+// }
 
 
 .hOne_title {

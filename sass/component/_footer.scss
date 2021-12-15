@@ -100,7 +100,6 @@ text-align: center;
     height: 480px;
     border-radius: 3px;
     padding: 22px;
-    margin-left: 26px;
     text-align: center;
     background-color: transparent;
     background-color: rgba(0, 0, 0, 0.6);
@@ -234,24 +233,20 @@ form div{
         max-width: 700px;
     
     }
+    .singlePostForm p {
+        letter-spacing: 1px;
+    }
     .contacts.d-f.jc-sb { 
         justify-content: center;
     }
 
     .title.fadeInUp h2 {
-        margin-top: 50px;
+        margin-top: 0px;
+        margin-bottom: 20px;
         text-align: center;
         margin-right: 0px;
     }
-    // .mapGoogle.active iframe {
-    //     width: 390px;
-    //     height: 564px;
-    // }
-    .mapGoogle.active  iframe {
-        width: 300px;
-        height: 300px;
-        margin-top: 261px;
-    }
+    
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -270,27 +265,10 @@ form div{
         margin: 0;
         text-align: center;
     }
-    .mapGoogle.active iframe {
-        width: 280px;
-        height: 360px;
-        margin-top: 0;
-    }
     .singlePostForm {
         width: 240px;
         padding: 22px;
         margin: 0px;
     }
 
-    .w75{
-        display: flex;
-        flex-flow: column wrap;
-    }
-    .w50{
-        margin: 50px 0;
-        order: 2;
-    }
-
-    .w25{
-        order: 1;
-    }
 }

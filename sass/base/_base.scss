@@ -29,6 +29,12 @@ h2{
     text-transform: uppercase;
 }
 
+p{
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+
 .preloader {
     position: fixed;
     left: 0;
@@ -68,3 +74,4 @@ h2{
   .loaded .preloader {
     display: none;
   }
+

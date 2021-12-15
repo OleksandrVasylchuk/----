@@ -30,6 +30,12 @@ h2 {
   text-transform: uppercase;
 }
 
+p {
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 2;
+}
+
 .preloader {
   position: fixed;
   left: 0;
@@ -296,6 +302,9 @@ header .logo svg {
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
+  h2 {
+    font-size: 30px;
+  }
   nav {
     margin: 40px auto 0 auto;
   }
@@ -386,7 +395,7 @@ header .logo svg {
   width: 100%;
   height: 100%;
   margin: auto;
-  background-image: linear-gradient(to bottom, rgba(18, 18, 19, 0.4), rgba(0, 0, 0, 0.1)), url(./../img/slidrer-2.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./../img/slidrer-2.webp);
   background-position: center;
   background-size: cover;
   visibility: visible;
@@ -394,6 +403,7 @@ header .logo svg {
   color: white;
   align-items: center;
   justify-content: center;
+  text-shadow: 1px 1px 1px #000;
 }
 
 .lg.slider__2 {
@@ -444,6 +454,7 @@ header .logo svg {
 .hThree_title h2 {
   font-size: 30px;
   color: #f7f3f3;
+  width: 100%;
 }
 
 .home_five .lg .description {
@@ -456,7 +467,7 @@ header .logo svg {
 .home_five .lg .description p {
   font-size: 20px;
   text-align: start;
-  color: #f7f3f3;
+  color: #ffffff;
   line-height: 150%;
   margin: 20px;
 }
@@ -515,14 +526,6 @@ header .logo svg {
 
 .showMenu {
   transform: translateX(0);
-}
-
-.item p {
-  width: 400px;
-  height: 400px;
-  background-color: blue;
-  width: 100%;
-  font-size: 16px;
 }
 
 .hOne_title {
@@ -870,7 +873,7 @@ h1.fadeInUp {
   }
   .gallery-hero .content .content__info {
     position: absolute;
-    top: 190px;
+    top: 178px;
     right: 100px;
     z-index: 10;
     padding: 30px;
@@ -1048,11 +1051,11 @@ h1.fadeInUp {
 
 .slider__4 .container {
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url(./../img/slider__4.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(./../img/slider__4.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-position: center;
-  text-shadow: -3px 0px 1px #000;
+  text-shadow: none;
 }
 
 .home-scr-4 .container .list {
@@ -1079,6 +1082,11 @@ h1.fadeInUp {
   font-size: 14px;
   font-weight: 300;
   line-height: 24px;
+  letter-spacing: 1px;
+}
+
+.home_four__container {
+  height: 100%;
 }
 
 .description {
@@ -1165,6 +1173,7 @@ h1.fadeInUp {
     line-height: 20px;
     margin-left: 0px;
     margin-top: 20px;
+    letter-spacing: 1px;
   }
 }
 
@@ -1176,8 +1185,12 @@ h1.fadeInUp {
     /* width: 100%; */
     justify-content: center;
   }
+  .hOne_title {
+    width: 300px;
+  }
   .description {
     font-size: 16px;
+    letter-spacing: 1px;
   }
   .singleService {
     display: block;
@@ -1192,6 +1205,7 @@ h1.fadeInUp {
     line-height: 14px;
     margin-left: 0px;
     margin-top: 20px;
+    letter-spacing: 1px;
   }
   .section-4__svg {
     width: 100px;
@@ -1257,7 +1271,7 @@ h1.fadeInUp {
 
 @media screen and (min-width: 1024px) and (max-width: 1339px) {
   .section-5 .home_four {
-    margin-top: 500px;
+    margin-top: 350px;
   }
   .home_four__container {
     height: 100%;
@@ -1460,7 +1474,6 @@ h1.fadeInUp {
   height: 480px;
   border-radius: 3px;
   padding: 22px;
-  margin-left: 26px;
   text-align: center;
   background-color: transparent;
   background-color: rgba(0, 0, 0, 0.6);
@@ -1593,18 +1606,17 @@ form div {
   .contacts {
     max-width: 700px;
   }
+  .singlePostForm p {
+    letter-spacing: 1px;
+  }
   .contacts.d-f.jc-sb {
     justify-content: center;
   }
   .title.fadeInUp h2 {
-    margin-top: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
     text-align: center;
     margin-right: 0px;
-  }
-  .mapGoogle.active iframe {
-    width: 300px;
-    height: 300px;
-    margin-top: 261px;
   }
 }
 
@@ -1622,26 +1634,10 @@ form div {
     margin: 0;
     text-align: center;
   }
-  .mapGoogle.active iframe {
-    width: 280px;
-    height: 360px;
-    margin-top: 0;
-  }
   .singlePostForm {
     width: 240px;
     padding: 22px;
     margin: 0px;
-  }
-  .w75 {
-    display: flex;
-    flex-flow: column wrap;
-  }
-  .w50 {
-    margin: 50px 0;
-    order: 2;
-  }
-  .w25 {
-    order: 1;
   }
 }
 /*# sourceMappingURL=main.css.map */
