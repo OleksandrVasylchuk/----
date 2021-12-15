@@ -64,11 +64,8 @@
           }
     
         }
-        
-        input[name="select"] {
-          margin-right: 10px;
-        }
-    
+
+       
     
         .item-hugger {
           display: flex;
@@ -201,10 +198,12 @@
   }
 
   input[type="radio"] {
-    margin-right: 10px;
+    margin-right: 15px;
     position: relative;
     cursor: pointer;
     line-height: 30px;
+    width: 10px;
+    height: 10px;
   }
   .gallery__item small>input:not(:disabled):active+span::before {
     background-color: var(--accent-color);
@@ -216,7 +215,7 @@
     content: '';
     position: absolute;
     top: -3px;
-    left: 0;
+    left: -5px;
     width: 16px;
     height: 16px;
     border: 1px solid var(--accent-color);
@@ -242,7 +241,7 @@
 .gallery__item input[type="radio"]:checked:after {
   opacity: 1;
   top: 0;
-  left: 3px;
+  left: -2px;
   width: 12px;
   height: 12px;
 }
@@ -438,6 +437,7 @@
   .gallery-hero .item-hugger__title{
     font-size: 14px;
     width: 280px;
+    text-shadow: none;
 
   }
 
