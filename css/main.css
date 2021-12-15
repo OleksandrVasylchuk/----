@@ -1544,6 +1544,7 @@ input[type="radio"] {
   font-weight: 300;
   font-size: 14px;
   line-height: 14px;
+  letter-spacing: 1px;
 }
 
 .singlePostForm .form input {
@@ -1556,6 +1557,10 @@ input[type="radio"] {
   outline: none;
   border-radius: 0;
   color: black;
+}
+
+.singlePostForm .form .button input {
+  color: white;
 }
 
 .blockSubmit input {
