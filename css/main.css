@@ -461,6 +461,7 @@ header .logo svg {
   font-size: 30px;
   color: #f7f3f3;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .home_five .lg .description {
@@ -1015,7 +1016,7 @@ input[type="radio"] {
     position: absolute;
     top: 0;
     right: 0px;
-    padding: 30px;
+    padding: 15px;
     width: 350px;
     height: 450px;
   }
@@ -1068,7 +1069,7 @@ input[type="radio"] {
     position: absolute;
     top: 500px;
     right: 0px;
-    padding: 30px;
+    padding: 10px;
     width: 280px;
     height: 400px;
   }
@@ -1605,6 +1606,11 @@ form div {
 .fadeInUp a {
   text-decoration: none;
   color: white;
+}
+
+.fadeInUp h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 
 .description__fadeInUp {
