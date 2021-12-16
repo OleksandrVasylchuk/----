@@ -47,16 +47,20 @@
         }
         
         .gallery__item {
-          height: 80px;
+          height: 60px;
         vertical-align: middle;
         font-size: 20px;
         margin-right: 34px;
         display: flex;
         align-items: center;
-        
+        margin: 10px 0;
+
+        &:first-child{
+          margin-bottom: 10px;
+        }
           
         &.small{
-          height: 50px;
+          height: 30px;
         }
         
           &:last-child{
@@ -99,7 +103,8 @@
         top: 0;
         left: 0;
         width: 550px;
-        font-size: 25px;
+        // margin: 10px 0;
+        font-size: 22px;
         line-height: 1.2;
         color: rgb(252, 252, 252);
         transition: all 150ms linear;
@@ -307,6 +312,7 @@
     .gallery-hero {
         height: 100%;
         width: 900px;
+       
     }
     .gallery-hero .content {
     top: 0px;
@@ -321,7 +327,7 @@
     height: 650px;
 } 
 .gallery-hero .item-hugger__title{
-  font-size: 22px;
+  font-size: 19px;
   width: 450px;
 }
 
@@ -334,6 +340,18 @@
   font-size: 16px;
   & h3{
     font-size: 18px;
+  }
+}
+.gallery__item{
+  height: 55px;
+
+  &.small:last-child{
+    margin: 0;
+  }
+  &.big{
+    margin-top: 0;
+    height: 30px;
+    margin-bottom: 40px;
   }
 }
 }
@@ -353,7 +371,7 @@
         width: 700px;
         .gallery__item{
           
-          height: 60px;
+          height: 50px;
         }
   }
     .gallery-hero .content {
@@ -400,7 +418,7 @@
   .slider__3 {
     height: 76vh;
     & .lg {
-      min-height: 1100px
+      min-height: 1300px
     }
   }
   .slider__3 .hThree_title {
@@ -427,7 +445,7 @@
   }
     .gallery-hero .content .content__info {
       position: absolute;
-      top: 500px;
+      top: 645px;
       right: 0px;
       padding: 10px;
       width: 280px;
